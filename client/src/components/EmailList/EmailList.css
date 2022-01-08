@@ -1,0 +1,15 @@
+.EmailList {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    float: left;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    width: 400px;
+}
+
+.EmailList.empty {
+     color: #aaa;
+     padding-top: 200px;
+     text-align: center;
+ }

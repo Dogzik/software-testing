@@ -1,0 +1,45 @@
+.EmailListItem {
+    box-sizing: border-box;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.EmailListItem.selected {
+    color: #009fc4;
+}
+
+.truncate {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.EmailListItem__subject {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.EmailListItem__details {
+    font-size: 12px;
+    opacity: .5;
+}
+
+.EmailListItem__time {
+    float: right;
+    text-align: right;
+    width: 40%;
+}
+
+.EmailListItem__address {
+    text-align: left;
+    width: 60%;
+}
+
+.EmailListItem:hover {
+    background: #e5e5e5;
+}

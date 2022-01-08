@@ -1,0 +1,44 @@
+.EmailDetails {
+    background: #fff;
+    border-left: 1px solid #ddd;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: calc(100% - 300px - 400px);
+}
+
+.EmailDetails__header {
+    background: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.EmailDetails__subject {
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.EmailDetails__address {
+    text-align: left;
+    color: #878787;
+    float: left;
+    width: calc(100% - 140px - 20px);
+    overflow: auto;
+}
+
+.EmailDetails__time {
+    float: right;
+    text-align: right;
+    color: #878787;
+    width: 140px;
+}
+
+.EmailDetails__text {
+    text-align: left;
+    padding: 20px 15px 15px;
+    overflow: auto;
+}

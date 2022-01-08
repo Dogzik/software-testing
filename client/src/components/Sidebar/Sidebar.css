@@ -1,0 +1,33 @@
+.Sidebar {
+    width: 300px;
+    background: #34393d;
+    position: relative;
+}
+
+.Sidebar__write {
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 15px;
+    background: #009fc4;
+    text-align: center;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.Sidebar__write:hover {
+    background: #0096c4;
+}
+
+.Sidebar__user {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+    color: aliceblue;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}

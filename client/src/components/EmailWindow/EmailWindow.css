@@ -1,0 +1,8 @@
+.EmailWindow {
+    background: #fff;
+    border-left: 1px solid #ddd;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: calc(100% - 300px - 400px);
+}

@@ -9,17 +9,19 @@
     "@testing-library/user-event": "^12.1.10",
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
+    "playwright": "^1.17.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-test-renderer": "^17.0.2",
+    "serve": "^13.0.2",
     "wait-for-expect": "^3.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "mocha \"src/**/*.mocha.js\" && react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.17.2"
   }
 }

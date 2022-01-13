@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "config.path",
+      "type": "java.lang.String",
+      "description": "Path to config"
+    }
+  ]
+}

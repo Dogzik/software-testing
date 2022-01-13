@@ -2,7 +2,6 @@ package com.example.server.controller
 
 import com.example.server.model.Credentials
 import com.example.server.service.AuthenticationService
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class AuthenticationController(@Autowired private val authenticationService: AuthenticationService) {
+class AuthenticationController(private val authenticationService: AuthenticationService) {
     @PostMapping(
         path = ["/login"],
         consumes = ["application/json"],

@@ -1,0 +1,102 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - master
+      
+env:
+  NODE_VERSION: 14
+
+jobs:
+  frontend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout to actual version
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Build client
+        working-directory: client
+        run: npm ci
+
+      - name: Run tests
+        working-directory: client
+        run: npm test
+      
+  backend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout to actual version
+        uses: actions/checkout@v2
+        
+      - name: Run tests
+        working-directory: server
+        run: ./gradlew test
+        
+  end-to-end-tests:
+    needs:
+      - backend-tests
+      - frontend-tests
+    runs-on: ubuntu-latest
+    env:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: post_db
+      APP_DB_USER: docker
+      APP_DB_PASS: docker
+      POSTGRES_PORT: 6543
+    
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: post_db
+        ports:
+          - 6543:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+    
+    steps:
+      - name: Checkout to actual version
+        uses: actions/checkout@v2
+
+      - name: Initialise databse
+        run: |
+          PGPASSWORD=$POSTGRES_PASSWORD psql --host localhost --port $POSTGRES_PORT --username $POSTGRES_USER --dbname $POSTGRES_DB <<-EOSQL
+            CREATE USER $APP_DB_USER WITH PASSWORD '$APP_DB_PASS';
+            GRANT ALL PRIVILEGES ON DATABASE $POSTGRES_DB TO $APP_DB_USER;
+          EOSQL
+          PGPASSWORD=$APP_DB_PASS psql --host localhost --port $POSTGRES_PORT --username $APP_DB_USER --dbname $POSTGRES_DB -f server/scripts/create-tables.sql
+          
+      - name: Build server
+        working-directory: server
+        run: ./gradlew assemble
+          
+      - name: Start server
+        working-directory: server
+        run: ./gradlew bootRun &
+        
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+        
+      - name: Install client dependencies
+        working-directory: client
+        run: |
+          npm ci
+          npx playwright install --with-deps
+          
+      - name: Start client
+        working-directory: client
+        run: npm start &
+          
+      - name: Run playwright tests
+        working-directory: client
+        run: npx playwright test e2e

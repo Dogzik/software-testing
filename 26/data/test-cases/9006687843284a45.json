@@ -1,0 +1,81 @@
+{
+  "uid" : "9006687843284a45",
+  "name" : "Getting sent",
+  "fullName" : "com.example.server.service.DBPostServiceTest.testGettingSent",
+  "historyId" : "678ad73656c0464a9d7e5c8f7f33fa69",
+  "time" : {
+    "start" : 1642300172401,
+    "stop" : 1642300172500,
+    "duration" : 99
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642300172402,
+      "stop" : 1642300172403,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Service tests"
+  }, {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "story",
+    "value" : "Getting mailbox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-874"
+  }, {
+    "name" : "thread",
+    "value" : "1838@fv-az37-874.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGettingSent"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9006687843284a45.json",
+  "parameterValues" : [ ]
+}

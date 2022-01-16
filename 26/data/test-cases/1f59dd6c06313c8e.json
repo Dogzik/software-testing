@@ -1,0 +1,81 @@
+{
+  "uid" : "1f59dd6c06313c8e",
+  "name" : "Getting sent",
+  "fullName" : "com.example.server.repo.PostgresPostRepoTest.testGettingSent",
+  "historyId" : "69cd6a5fb28c334c896dc0e7841b82ba",
+  "time" : {
+    "start" : 1642300128456,
+    "stop" : 1642300130898,
+    "duration" : 2442
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642300128502,
+      "stop" : 1642300128856,
+      "duration" : 354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "story",
+    "value" : "Getting mailbox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-874"
+  }, {
+    "name" : "thread",
+    "value" : "1838@fv-az37-874.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGettingSent"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f59dd6c06313c8e.json",
+  "parameterValues" : [ ]
+}

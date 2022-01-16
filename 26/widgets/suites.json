@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "9a242cea542af93b16da23887ed121b6",
+    "name" : "com.example.server.repo.PostgresAuthenticationRepoIntegrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "4404b0a090fb7673c83ffe0a61642844",
+    "name" : "com.example.server.repo.PostgresPostRepoTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f1c58196980dcba965247520f910706c",
+    "name" : "com.example.server.service.DBPostServiceTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "4ebb96972155c0f26325cc8340a9c4cc",
+    "name" : "com.example.server.repo.PostgresPostRepoIntegrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2202f1606e3d9e46faab14e8db20f1f6",
+    "name" : "com.example.server.repo.PostgresAuthenticationRepoTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "528d2df138143122b866ee1d2098e520",
+    "name" : "com.example.server.controller.AuthenticationControllerTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b5304cb6bf1b1a33bb73c6cecc1abc55",
+    "name" : "com.example.server.service.DBAuthenticationServiceTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

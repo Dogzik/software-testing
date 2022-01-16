@@ -1,0 +1,292 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.example.server",
+    "children" : [ {
+      "name" : "repo",
+      "children" : [ {
+        "name" : "PostgresPostRepoTest",
+        "children" : [ {
+          "name" : "testGettingSent",
+          "uid" : "1f59dd6c06313c8e",
+          "parentUid" : "806f24a3271f4bade803260939ffa8b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300128456,
+            "stop" : 1642300130898,
+            "duration" : 2442
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGettingInbox",
+          "uid" : "48e01b24981c2608",
+          "parentUid" : "806f24a3271f4bade803260939ffa8b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300131179,
+            "stop" : 1642300131309,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSendingEmail",
+          "uid" : "72286d59bd880325",
+          "parentUid" : "806f24a3271f4bade803260939ffa8b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300131323,
+            "stop" : 1642300131353,
+            "duration" : 30
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "806f24a3271f4bade803260939ffa8b7"
+      }, {
+        "name" : "PostgresAuthenticationRepoIntegrationTest",
+        "children" : [ {
+          "name" : "testLoginWithWrongPassword",
+          "uid" : "4f49fecfc1a2ff62",
+          "parentUid" : "7d1f424a12a2d407279884a2f84b0049",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300131405,
+            "stop" : 1642300151497,
+            "duration" : 20092
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testRegistration",
+          "uid" : "3191b10890d17c7b",
+          "parentUid" : "7d1f424a12a2d407279884a2f84b0049",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300151502,
+            "stop" : 1642300153659,
+            "duration" : 2157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginAfterRegistration",
+          "uid" : "6ce1432510281a2f",
+          "parentUid" : "7d1f424a12a2d407279884a2f84b0049",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300153663,
+            "stop" : 1642300155712,
+            "duration" : 2049
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testRegistrationWithSameLogin",
+          "uid" : "51c68e9debe64e50",
+          "parentUid" : "7d1f424a12a2d407279884a2f84b0049",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300155723,
+            "stop" : 1642300157904,
+            "duration" : 2181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testAbsentUser",
+          "uid" : "970121ba1430fb62",
+          "parentUid" : "7d1f424a12a2d407279884a2f84b0049",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300157912,
+            "stop" : 1642300159867,
+            "duration" : 1955
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d1f424a12a2d407279884a2f84b0049"
+      }, {
+        "name" : "PostgresPostRepoIntegrationTest",
+        "children" : [ {
+          "name" : "testGettingMailboxes",
+          "uid" : "c1c007b5ed6deab7",
+          "parentUid" : "b30564a871d0d35e6dc8aaa1cee3d9df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300159883,
+            "stop" : 1642300162085,
+            "duration" : 2202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSendingEmail",
+          "uid" : "9bb13eefaa8149b7",
+          "parentUid" : "b30564a871d0d35e6dc8aaa1cee3d9df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300162089,
+            "stop" : 1642300164174,
+            "duration" : 2085
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b30564a871d0d35e6dc8aaa1cee3d9df"
+      }, {
+        "name" : "PostgresAuthenticationRepoTest",
+        "children" : [ {
+          "name" : "testLogin",
+          "uid" : "5d26a866aaa48813",
+          "parentUid" : "53648049743340966b1a20eef6acd2d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300164200,
+            "stop" : 1642300164247,
+            "duration" : 47
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testRegister",
+          "uid" : "2d2a81feacea1aec",
+          "parentUid" : "53648049743340966b1a20eef6acd2d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300164266,
+            "stop" : 1642300164302,
+            "duration" : 36
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "53648049743340966b1a20eef6acd2d5"
+      } ],
+      "uid" : "93959fbf275f957a19a120541a0c9d5a"
+    }, {
+      "name" : "controller.AuthenticationControllerTest",
+      "children" : [ {
+        "name" : "testLogin",
+        "uid" : "1673ea40764cd85f",
+        "parentUid" : "f37b17fb250e2c2a7707d2693abb1021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300170962,
+          "stop" : 1642300171652,
+          "duration" : 690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegister",
+        "uid" : "efc0a90f106becfc",
+        "parentUid" : "f37b17fb250e2c2a7707d2693abb1021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300171662,
+          "stop" : 1642300171711,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "controller.AuthenticationControllerTest"
+    }, {
+      "name" : "service",
+      "children" : [ {
+        "name" : "DBAuthenticationServiceTest",
+        "children" : [ {
+          "name" : "testLogin",
+          "uid" : "d6405ad4da6795ee",
+          "parentUid" : "e5e7be2c23d3c2e22add03fcb217d363",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300171868,
+            "stop" : 1642300171895,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testRegister",
+          "uid" : "fde6cac318564b20",
+          "parentUid" : "e5e7be2c23d3c2e22add03fcb217d363",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300171907,
+            "stop" : 1642300171918,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5e7be2c23d3c2e22add03fcb217d363"
+      }, {
+        "name" : "DBPostServiceTest",
+        "children" : [ {
+          "name" : "testGettingSent",
+          "uid" : "9006687843284a45",
+          "parentUid" : "eca19b284eddfc0a878be8a74dbfa9b9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300172401,
+            "stop" : 1642300172500,
+            "duration" : 99
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGettingInbox",
+          "uid" : "72e2a77ca0cd10b4",
+          "parentUid" : "eca19b284eddfc0a878be8a74dbfa9b9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300172503,
+            "stop" : 1642300172513,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSendingEmail",
+          "uid" : "a60645ef37486b7d",
+          "parentUid" : "eca19b284eddfc0a878be8a74dbfa9b9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642300172518,
+            "stop" : 1642300172672,
+            "duration" : 154
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eca19b284eddfc0a878be8a74dbfa9b9"
+      } ],
+      "uid" : "cee9c2fb0389bb14f21b1c6fc49341f5"
+    } ],
+    "uid" : "com.example.server"
+  } ],
+  "name" : "packages"
+}

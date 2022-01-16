@@ -1,0 +1,81 @@
+{
+  "uid" : "d6405ad4da6795ee",
+  "name" : "Signing in with correct and incorrect credentials",
+  "fullName" : "com.example.server.service.DBAuthenticationServiceTest.testLogin",
+  "historyId" : "d2a00887071ba6f168755e4aa9dc52c1",
+  "time" : {
+    "start" : 1642300171868,
+    "stop" : 1642300171895,
+    "duration" : 27
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearRepo",
+    "time" : {
+      "start" : 1642300171869,
+      "stop" : 1642300171869,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Service tests"
+  }, {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign in"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-874"
+  }, {
+    "name" : "thread",
+    "value" : "1838@fv-az37-874.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6405ad4da6795ee.json",
+  "parameterValues" : [ ]
+}

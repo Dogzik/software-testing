@@ -1,0 +1,191 @@
+[ {
+  "uid" : "9bb13eefaa8149b7",
+  "name" : "Sending single email",
+  "time" : {
+    "start" : 1642300162089,
+    "stop" : 1642300164174,
+    "duration" : 2085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72e2a77ca0cd10b4",
+  "name" : "Getting inbox",
+  "time" : {
+    "start" : 1642300172503,
+    "stop" : 1642300172513,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51c68e9debe64e50",
+  "name" : "Registration with existing login",
+  "time" : {
+    "start" : 1642300155723,
+    "stop" : 1642300157904,
+    "duration" : 2181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48e01b24981c2608",
+  "name" : "Getting inbox",
+  "time" : {
+    "start" : 1642300131179,
+    "stop" : 1642300131309,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9006687843284a45",
+  "name" : "Getting sent",
+  "time" : {
+    "start" : 1642300172401,
+    "stop" : 1642300172500,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d2a81feacea1aec",
+  "name" : "Signing up with same credentials twice",
+  "time" : {
+    "start" : 1642300164266,
+    "stop" : 1642300164302,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3191b10890d17c7b",
+  "name" : "Registration new user",
+  "time" : {
+    "start" : 1642300151502,
+    "stop" : 1642300153659,
+    "duration" : 2157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1673ea40764cd85f",
+  "name" : "Signing in with correct and incorrect credentials",
+  "time" : {
+    "start" : 1642300170962,
+    "stop" : 1642300171652,
+    "duration" : 690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f49fecfc1a2ff62",
+  "name" : "Login with wrong password",
+  "time" : {
+    "start" : 1642300131405,
+    "stop" : 1642300151497,
+    "duration" : 20092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72286d59bd880325",
+  "name" : "Sending single email",
+  "time" : {
+    "start" : 1642300131323,
+    "stop" : 1642300131353,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f59dd6c06313c8e",
+  "name" : "Getting sent",
+  "time" : {
+    "start" : 1642300128456,
+    "stop" : 1642300130898,
+    "duration" : 2442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6405ad4da6795ee",
+  "name" : "Signing in with correct and incorrect credentials",
+  "time" : {
+    "start" : 1642300171868,
+    "stop" : 1642300171895,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ce1432510281a2f",
+  "name" : "Login after registration",
+  "time" : {
+    "start" : 1642300153663,
+    "stop" : 1642300155712,
+    "duration" : 2049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a60645ef37486b7d",
+  "name" : "Correctly filling id and time and sending email",
+  "time" : {
+    "start" : 1642300172518,
+    "stop" : 1642300172672,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efc0a90f106becfc",
+  "name" : "Signing up with same credentials twice",
+  "time" : {
+    "start" : 1642300171662,
+    "stop" : 1642300171711,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "970121ba1430fb62",
+  "name" : "Login with non-existing credentials",
+  "time" : {
+    "start" : 1642300157912,
+    "stop" : 1642300159867,
+    "duration" : 1955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fde6cac318564b20",
+  "name" : "Signing up with same credentials twice",
+  "time" : {
+    "start" : 1642300171907,
+    "stop" : 1642300171918,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1c007b5ed6deab7",
+  "name" : "Getting mailboxes",
+  "time" : {
+    "start" : 1642300159883,
+    "stop" : 1642300162085,
+    "duration" : 2202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d26a866aaa48813",
+  "name" : "Signing in with correct and incorrect credentials",
+  "time" : {
+    "start" : 1642300164200,
+    "stop" : 1642300164247,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

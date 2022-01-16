@@ -1,0 +1,147 @@
+{
+  "uid" : "1a2e4679c02660d7",
+  "name" : "Sending single email",
+  "fullName" : "com.example.server.repo.PostgresPostRepoIntegrationTest.testSendingEmail",
+  "historyId" : "8b3b8f55bc8bf0d53ac3d9ac0be08d46",
+  "time" : {
+    "start" : 1642309977948,
+    "stop" : 1642309979860,
+    "duration" : 1912
+  },
+  "description" : "Sending single email and checking its presence in database",
+  "descriptionHtml" : "<p>Sending single email and checking its presence in database</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initContainers",
+    "time" : {
+      "start" : 1642309977948,
+      "stop" : 1642309979568,
+      "duration" : 1620
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post repo integration tests"
+  }, {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "story",
+    "value" : "Sending email"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-874"
+  }, {
+    "name" : "thread",
+    "value" : "1808@fv-az37-874.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresPostRepoIntegrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresPostRepoIntegrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSendingEmail"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresPostRepoIntegrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "bbc09dd3bdd555ee",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/37//#testresult/bbc09dd3bdd555ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309976333,
+          "stop" : 1642309978354,
+          "duration" : 2021
+        }
+      }, {
+        "uid" : "9f8b1f152379f878",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/9f8b1f152379f878",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309834579,
+          "stop" : 1642309836805,
+          "duration" : 2226
+        }
+      }, {
+        "uid" : "a6d70e9d99462367",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/a6d70e9d99462367",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308317107,
+          "stop" : 1642308319047,
+          "duration" : 1940
+        }
+      }, {
+        "uid" : "604f852f25220d9f",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/604f852f25220d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307784313,
+          "stop" : 1642307786321,
+          "duration" : 2008
+        }
+      }, {
+        "uid" : "2f65b97fa36a9e4d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/2f65b97fa36a9e4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305535440,
+          "stop" : 1642305537293,
+          "duration" : 1853
+        }
+      }, {
+        "uid" : "9bb13eefaa8149b7",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/9bb13eefaa8149b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300162089,
+          "stop" : 1642300164174,
+          "duration" : 2085
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1a2e4679c02660d7.json",
+  "parameterValues" : [ ]
+}

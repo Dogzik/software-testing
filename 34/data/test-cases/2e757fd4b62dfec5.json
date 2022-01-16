@@ -1,0 +1,84 @@
+{
+  "uid" : "2e757fd4b62dfec5",
+  "name" : "opening editor",
+  "fullName" : "App.opening editor",
+  "historyId" : "282d355a7ddd9836c3e6b686821fabcb",
+  "time" : {
+    "start" : 1642308234229,
+    "stop" : 1642308234235,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Opening editor"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "opening editor"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ffc9510f3d9512ba",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/ffc9510f3d9512ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690321,
+          "stop" : 1642307690326,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "32f6352a33a82bd8",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/32f6352a33a82bd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443530,
+          "stop" : 1642305443535,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2e757fd4b62dfec5.json",
+  "parameterValues" : [ ]
+}

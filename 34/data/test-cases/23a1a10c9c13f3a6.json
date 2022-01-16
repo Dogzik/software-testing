@@ -1,0 +1,84 @@
+{
+  "uid" : "23a1a10c9c13f3a6",
+  "name" : "initial render",
+  "fullName" : "App.initial render",
+  "historyId" : "a4b8c5e5734c6426162d4bda5111a866",
+  "time" : {
+    "start" : 1642308234204,
+    "stop" : 1642308234229,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Render initial app"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "initial render"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d82322ab5825b9f4",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/d82322ab5825b9f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690302,
+          "stop" : 1642307690321,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "4ec25e0ed3b821c9",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/4ec25e0ed3b821c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443510,
+          "stop" : 1642305443530,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "23a1a10c9c13f3a6.json",
+  "parameterValues" : [ ]
+}

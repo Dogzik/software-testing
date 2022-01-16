@@ -1,0 +1,84 @@
+{
+  "uid" : "d9baa9a12ed3b308",
+  "name" : "return inbox email",
+  "fullName" : "toInternalEmail.return inbox email",
+  "historyId" : "5807fd600032d4545409ca8656017543",
+  "time" : {
+    "start" : 1642308234470,
+    "stop" : 1642308234471,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "story",
+    "value" : "Inbox email"
+  }, {
+    "name" : "suite",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "testClass",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "testMethod",
+    "value" : "return inbox email"
+  }, {
+    "name" : "package",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b31617f75aad8358",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/b31617f75aad8358",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690509,
+          "stop" : 1642307690509,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dfda1e1290a7e12",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/dfda1e1290a7e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443730,
+          "stop" : 1642305443730,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d9baa9a12ed3b308.json",
+  "parameterValues" : [ ]
+}

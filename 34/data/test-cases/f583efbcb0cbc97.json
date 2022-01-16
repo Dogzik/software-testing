@@ -1,0 +1,84 @@
+{
+  "uid" : "f583efbcb0cbc97",
+  "name" : "correct authentication via Sign up button",
+  "fullName" : "LoginPage.correct authentication via Sign up button",
+  "historyId" : "654068bbf9fffd3268861db84a3f9036",
+  "time" : {
+    "start" : 1642308234701,
+    "stop" : 1642308234704,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage"
+  }, {
+    "name" : "story",
+    "value" : "Successful Sign up via button"
+  }, {
+    "name" : "suite",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct authentication via Sign up button"
+  }, {
+    "name" : "package",
+    "value" : "LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "94a0f145d6dcb91f",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/94a0f145d6dcb91f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690690,
+          "stop" : 1642307690692,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "43e9147a58572fb4",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/43e9147a58572fb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443924,
+          "stop" : 1642305443927,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f583efbcb0cbc97.json",
+  "parameterValues" : [ ]
+}

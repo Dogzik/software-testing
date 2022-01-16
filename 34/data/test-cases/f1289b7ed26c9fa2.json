@@ -1,0 +1,84 @@
+{
+  "uid" : "f1289b7ed26c9fa2",
+  "name" : "selecting mailbox",
+  "fullName" : "MailboxList.selecting mailbox",
+  "historyId" : "bf9ea11df4f57a79db55dadb3ff0ef28",
+  "time" : {
+    "start" : 1642308235650,
+    "stop" : 1642308235653,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "MailboxList"
+  }, {
+    "name" : "story",
+    "value" : "Selecting mailbox"
+  }, {
+    "name" : "suite",
+    "value" : "MailboxList"
+  }, {
+    "name" : "testClass",
+    "value" : "MailboxList"
+  }, {
+    "name" : "testMethod",
+    "value" : "selecting mailbox"
+  }, {
+    "name" : "package",
+    "value" : "MailboxList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "35160cd4467d7fb0",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/35160cd4467d7fb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307691360,
+          "stop" : 1642307691363,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "2f8c6721a32235f4",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/2f8c6721a32235f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444682,
+          "stop" : 1642305444685,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f1289b7ed26c9fa2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "48f70a17206285af",
+  "name" : "render simple email",
+  "fullName" : "EmailListItem.render simple email",
+  "historyId" : "dc6f09029a26fd2276cb6def1fa9aa7e",
+  "time" : {
+    "start" : 1642308235038,
+    "stop" : 1642308235040,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "story",
+    "value" : "Render unselected email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testMethod",
+    "value" : "render simple email"
+  }, {
+    "name" : "package",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4b70aecfd095b21c",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/4b70aecfd095b21c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690930,
+          "stop" : 1642307690932,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c5e2dbdfd1c034d0",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/c5e2dbdfd1c034d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444210,
+          "stop" : 1642305444212,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "48f70a17206285af.json",
+  "parameterValues" : [ ]
+}

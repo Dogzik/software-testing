@@ -1,0 +1,84 @@
+{
+  "uid" : "587f74d770ebc1e4",
+  "name" : "correctly sending email",
+  "fullName" : "EmailEditor.correctly sending email",
+  "historyId" : "acf755d4e62df7023027ca3f1a752d4f",
+  "time" : {
+    "start" : 1642308234886,
+    "stop" : 1642308234890,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "story",
+    "value" : "Sending email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testMethod",
+    "value" : "correctly sending email"
+  }, {
+    "name" : "package",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4f2fc6017c87bd92",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/4f2fc6017c87bd92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690824,
+          "stop" : 1642307690827,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "ccd50d1ca70d12df",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/ccd50d1ca70d12df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444089,
+          "stop" : 1642305444093,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "587f74d770ebc1e4.json",
+  "parameterValues" : [ ]
+}

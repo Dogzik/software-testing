@@ -1,0 +1,84 @@
+{
+  "uid" : "ce5d14e5de15331a",
+  "name" : "return date with leafing zeros",
+  "fullName" : "getEmailDate.return date with leafing zeros",
+  "historyId" : "f0a85c8b02cc35fe8980947a911e8afb",
+  "time" : {
+    "start" : 1642308234462,
+    "stop" : 1642308234462,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "story",
+    "value" : "Date with leading zeros"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testMethod",
+    "value" : "return date with leafing zeros"
+  }, {
+    "name" : "package",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f1247f7b1977386d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/f1247f7b1977386d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690502,
+          "stop" : 1642307690503,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9bf4140528371981",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/9bf4140528371981",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443723,
+          "stop" : 1642305443724,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ce5d14e5de15331a.json",
+  "parameterValues" : [ ]
+}

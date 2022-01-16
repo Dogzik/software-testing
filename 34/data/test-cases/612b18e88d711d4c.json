@@ -1,0 +1,84 @@
+{
+  "uid" : "612b18e88d711d4c",
+  "name" : "no email",
+  "fullName" : "EmailDetails.no email",
+  "historyId" : "10c796fecca4c7bf9bbfc076c8eb0ee3",
+  "time" : {
+    "start" : 1642308235334,
+    "stop" : 1642308235336,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "story",
+    "value" : "Render no email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "no email"
+  }, {
+    "name" : "package",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ab22de2e77667e20",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/ab22de2e77667e20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307691149,
+          "stop" : 1642307691150,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cd2cfd5ea9de15cb",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/cd2cfd5ea9de15cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444451,
+          "stop" : 1642305444453,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "612b18e88d711d4c.json",
+  "parameterValues" : [ ]
+}

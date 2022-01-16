@@ -1,0 +1,55 @@
+{
+  "uid" : "42f5a6048bbb12df",
+  "name" : "return correct date from timestamp",
+  "fullName" : "getEmailDate.return correct date from timestamp",
+  "historyId" : "bda44e17a4f122d8234f4c7e0e7b4c1d",
+  "time" : {
+    "start" : 1642305443722,
+    "stop" : 1642305443722,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "story",
+    "value" : "Get correct date"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testMethod",
+    "value" : "return correct date from timestamp"
+  }, {
+    "name" : "package",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42f5a6048bbb12df.json",
+  "parameterValues" : [ ]
+}

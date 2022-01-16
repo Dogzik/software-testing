@@ -1,0 +1,55 @@
+{
+  "uid" : "cd2cfd5ea9de15cb",
+  "name" : "no email",
+  "fullName" : "EmailDetails.no email",
+  "historyId" : "10c796fecca4c7bf9bbfc076c8eb0ee3",
+  "time" : {
+    "start" : 1642305444451,
+    "stop" : 1642305444453,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "story",
+    "value" : "Render no email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "no email"
+  }, {
+    "name" : "package",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd2cfd5ea9de15cb.json",
+  "parameterValues" : [ ]
+}

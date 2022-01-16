@@ -1,0 +1,55 @@
+{
+  "uid" : "e66f9f1accd47d48",
+  "name" : "non-empty list",
+  "fullName" : "EmailList.non-empty list",
+  "historyId" : "bc6181d58b7aef8d65f92b2899538965",
+  "time" : {
+    "start" : 1642305444340,
+    "stop" : 1642305444344,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailList"
+  }, {
+    "name" : "story",
+    "value" : "Render non-empty list"
+  }, {
+    "name" : "suite",
+    "value" : "EmailList"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailList"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-empty list"
+  }, {
+    "name" : "package",
+    "value" : "EmailList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e66f9f1accd47d48.json",
+  "parameterValues" : [ ]
+}

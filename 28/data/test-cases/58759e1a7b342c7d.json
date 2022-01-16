@@ -1,0 +1,101 @@
+{
+  "uid" : "58759e1a7b342c7d",
+  "name" : "Correctly filling id and time and sending email",
+  "fullName" : "com.example.server.service.DBPostServiceTest.testSendingEmail",
+  "historyId" : "6cde39f896e5441638574ec7a0ebc6b8",
+  "time" : {
+    "start" : 1642305542170,
+    "stop" : 1642305542294,
+    "duration" : 124
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642305542171,
+      "stop" : 1642305542175,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "epic",
+    "value" : "Service tests"
+  }, {
+    "name" : "story",
+    "value" : "Sending email"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1813@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSendingEmail"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a60645ef37486b7d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/a60645ef37486b7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300172518,
+          "stop" : 1642300172672,
+          "duration" : 154
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "58759e1a7b342c7d.json",
+  "parameterValues" : [ ]
+}

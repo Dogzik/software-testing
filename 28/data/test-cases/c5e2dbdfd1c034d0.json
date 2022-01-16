@@ -1,0 +1,55 @@
+{
+  "uid" : "c5e2dbdfd1c034d0",
+  "name" : "render simple email",
+  "fullName" : "EmailListItem.render simple email",
+  "historyId" : "dc6f09029a26fd2276cb6def1fa9aa7e",
+  "time" : {
+    "start" : 1642305444210,
+    "stop" : 1642305444212,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "story",
+    "value" : "Render unselected email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testMethod",
+    "value" : "render simple email"
+  }, {
+    "name" : "package",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5e2dbdfd1c034d0.json",
+  "parameterValues" : [ ]
+}

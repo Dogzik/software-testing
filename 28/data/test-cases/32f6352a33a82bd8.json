@@ -1,0 +1,55 @@
+{
+  "uid" : "32f6352a33a82bd8",
+  "name" : "opening editor",
+  "fullName" : "App.opening editor",
+  "historyId" : "282d355a7ddd9836c3e6b686821fabcb",
+  "time" : {
+    "start" : 1642305443530,
+    "stop" : 1642305443535,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Opening editor"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "opening editor"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32f6352a33a82bd8.json",
+  "parameterValues" : [ ]
+}

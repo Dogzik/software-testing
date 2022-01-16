@@ -1,0 +1,55 @@
+{
+  "uid" : "68ba7828301e0779",
+  "name" : "return hours with leading zeros",
+  "fullName" : "getEmailTime.return hours with leading zeros",
+  "historyId" : "298cd4c70ce6bddffc094670579c4a06",
+  "time" : {
+    "start" : 1642305443727,
+    "stop" : 1642305443728,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "story",
+    "value" : "Hours with leading zeros"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "testMethod",
+    "value" : "return hours with leading zeros"
+  }, {
+    "name" : "package",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68ba7828301e0779.json",
+  "parameterValues" : [ ]
+}

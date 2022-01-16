@@ -1,0 +1,55 @@
+{
+  "uid" : "c69366e8de806d63",
+  "name" : "selecting sent mailbox",
+  "fullName" : "App.selecting sent mailbox",
+  "historyId" : "33d71f5a6a0dc8650d80dc277cbe5ba5",
+  "time" : {
+    "start" : 1642305443535,
+    "stop" : 1642305443539,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Selecting sent mailbox"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "selecting sent mailbox"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c69366e8de806d63.json",
+  "parameterValues" : [ ]
+}

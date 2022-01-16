@@ -1,0 +1,55 @@
+{
+  "uid" : "27cb22a420b61eb7",
+  "name" : "selection",
+  "fullName" : "EmailList.selection",
+  "historyId" : "ba67c06f9d2ab028b6eb584e810b17b2",
+  "time" : {
+    "start" : 1642305444344,
+    "stop" : 1642305444346,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailList"
+  }, {
+    "name" : "story",
+    "value" : "Selecting email from list"
+  }, {
+    "name" : "suite",
+    "value" : "EmailList"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailList"
+  }, {
+    "name" : "testMethod",
+    "value" : "selection"
+  }, {
+    "name" : "package",
+    "value" : "EmailList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27cb22a420b61eb7.json",
+  "parameterValues" : [ ]
+}

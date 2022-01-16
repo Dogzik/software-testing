@@ -1,0 +1,55 @@
+{
+  "uid" : "7adbee3c5bb70081",
+  "name" : "rendering selected email",
+  "fullName" : "EmailListItem.rendering selected email",
+  "historyId" : "1cff9f9ef1ff1cbc52c198d19be17e0b",
+  "time" : {
+    "start" : 1642305444214,
+    "stop" : 1642305444215,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "story",
+    "value" : "Render selected email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testMethod",
+    "value" : "rendering selected email"
+  }, {
+    "name" : "package",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7adbee3c5bb70081.json",
+  "parameterValues" : [ ]
+}

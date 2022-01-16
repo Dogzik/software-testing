@@ -1,0 +1,101 @@
+{
+  "uid" : "256239ed0f72579f",
+  "name" : "Signing up with same credentials twice",
+  "fullName" : "com.example.server.service.DBAuthenticationServiceTest.testRegister",
+  "historyId" : "ca453fa6374e0e801e443e7b2bde197",
+  "time" : {
+    "start" : 1642305541775,
+    "stop" : 1642305541781,
+    "duration" : 6
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearRepo",
+    "time" : {
+      "start" : 1642305541775,
+      "stop" : 1642305541775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Service tests"
+  }, {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1813@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fde6cac318564b20",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/fde6cac318564b20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300171907,
+          "stop" : 1642300171918,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "256239ed0f72579f.json",
+  "parameterValues" : [ ]
+}

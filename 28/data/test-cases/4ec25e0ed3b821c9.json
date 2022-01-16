@@ -1,0 +1,55 @@
+{
+  "uid" : "4ec25e0ed3b821c9",
+  "name" : "initial render",
+  "fullName" : "App.initial render",
+  "historyId" : "a4b8c5e5734c6426162d4bda5111a866",
+  "time" : {
+    "start" : 1642305443510,
+    "stop" : 1642305443530,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Render initial app"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "initial render"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ec25e0ed3b821c9.json",
+  "parameterValues" : [ ]
+}

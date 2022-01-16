@@ -1,0 +1,55 @@
+{
+  "uid" : "ccd50d1ca70d12df",
+  "name" : "correctly sending email",
+  "fullName" : "EmailEditor.correctly sending email",
+  "historyId" : "acf755d4e62df7023027ca3f1a752d4f",
+  "time" : {
+    "start" : 1642305444089,
+    "stop" : 1642305444093,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "story",
+    "value" : "Sending email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testMethod",
+    "value" : "correctly sending email"
+  }, {
+    "name" : "package",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccd50d1ca70d12df.json",
+  "parameterValues" : [ ]
+}

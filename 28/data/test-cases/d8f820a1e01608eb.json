@@ -1,0 +1,55 @@
+{
+  "uid" : "d8f820a1e01608eb",
+  "name" : "return correct time from timestamp",
+  "fullName" : "getEmailTime.return correct time from timestamp",
+  "historyId" : "d097666a2eedc4883156850b9d71e5a3",
+  "time" : {
+    "start" : 1642305443726,
+    "stop" : 1642305443727,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "story",
+    "value" : "Get correct time"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "testMethod",
+    "value" : "return correct time from timestamp"
+  }, {
+    "name" : "package",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8f820a1e01608eb.json",
+  "parameterValues" : [ ]
+}

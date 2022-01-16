@@ -1,0 +1,55 @@
+{
+  "uid" : "943ea6875840b062",
+  "name" : "correct credentials display",
+  "fullName" : "LoginPage.correct credentials display",
+  "historyId" : "68912a47623f986952bddf13df10cc98",
+  "time" : {
+    "start" : 1642305443929,
+    "stop" : 1642305443931,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage"
+  }, {
+    "name" : "story",
+    "value" : "Displaying credentials"
+  }, {
+    "name" : "suite",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct credentials display"
+  }, {
+    "name" : "package",
+    "value" : "LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "943ea6875840b062.json",
+  "parameterValues" : [ ]
+}

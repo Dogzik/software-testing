@@ -1,0 +1,55 @@
+{
+  "uid" : "8b4cd792926ade30",
+  "name" : "return sent email",
+  "fullName" : "toInternalEmail.return sent email",
+  "historyId" : "fd2e6f28ae4ba2b46092f6ac3561f63d",
+  "time" : {
+    "start" : 1642305443730,
+    "stop" : 1642305443730,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "story",
+    "value" : "Sent email"
+  }, {
+    "name" : "suite",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "testClass",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "testMethod",
+    "value" : "return sent email"
+  }, {
+    "name" : "package",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b4cd792926ade30.json",
+  "parameterValues" : [ ]
+}

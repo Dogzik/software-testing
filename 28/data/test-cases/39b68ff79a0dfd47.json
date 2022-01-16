@@ -1,0 +1,55 @@
+{
+  "uid" : "39b68ff79a0dfd47",
+  "name" : "return same time for different date",
+  "fullName" : "getEmailTime.return same time for different date",
+  "historyId" : "eceb28f2418e64cc43986b98fa18ff91",
+  "time" : {
+    "start" : 1642305443727,
+    "stop" : 1642305443727,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "story",
+    "value" : "Same time for different dates"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "testMethod",
+    "value" : "return same time for different date"
+  }, {
+    "name" : "package",
+    "value" : "getEmailTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39b68ff79a0dfd47.json",
+  "parameterValues" : [ ]
+}

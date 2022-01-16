@@ -1,0 +1,55 @@
+{
+  "uid" : "9bf4140528371981",
+  "name" : "return date with leafing zeros",
+  "fullName" : "getEmailDate.return date with leafing zeros",
+  "historyId" : "f0a85c8b02cc35fe8980947a911e8afb",
+  "time" : {
+    "start" : 1642305443723,
+    "stop" : 1642305443724,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "story",
+    "value" : "Date with leading zeros"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testMethod",
+    "value" : "return date with leafing zeros"
+  }, {
+    "name" : "package",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9bf4140528371981.json",
+  "parameterValues" : [ ]
+}

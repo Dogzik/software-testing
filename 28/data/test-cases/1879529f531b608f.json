@@ -1,0 +1,86 @@
+{
+  "uid" : "1879529f531b608f",
+  "name" : "Signing up with same credentials twice",
+  "fullName" : "com.example.server.controller.AuthenticationControllerTest.testRegister",
+  "historyId" : "7fad6b977ab22b349c93d8009e2e44f3",
+  "time" : {
+    "start" : 1642305541616,
+    "stop" : 1642305541639,
+    "duration" : 23
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "epic",
+    "value" : "Controller tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1813@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.controller.AuthenticationControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.controller.AuthenticationControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.controller.AuthenticationControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "efc0a90f106becfc",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/efc0a90f106becfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300171662,
+          "stop" : 1642300171711,
+          "duration" : 49
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1879529f531b608f.json",
+  "parameterValues" : [ ]
+}

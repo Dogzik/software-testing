@@ -1,0 +1,55 @@
+{
+  "uid" : "b67c0a343dce5626",
+  "name" : "display correct data",
+  "fullName" : "EmailEditor.display correct data",
+  "historyId" : "ce61386f86d9b60becfee11912f88b2f",
+  "time" : {
+    "start" : 1642305444085,
+    "stop" : 1642305444089,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "story",
+    "value" : "Just render data"
+  }, {
+    "name" : "suite",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testMethod",
+    "value" : "display correct data"
+  }, {
+    "name" : "package",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b67c0a343dce5626.json",
+  "parameterValues" : [ ]
+}

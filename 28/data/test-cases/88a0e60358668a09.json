@@ -1,0 +1,101 @@
+{
+  "uid" : "88a0e60358668a09",
+  "name" : "Signing in with correct and incorrect credentials",
+  "fullName" : "com.example.server.service.DBAuthenticationServiceTest.testLogin",
+  "historyId" : "d2a00887071ba6f168755e4aa9dc52c1",
+  "time" : {
+    "start" : 1642305541755,
+    "stop" : 1642305541772,
+    "duration" : 17
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearRepo",
+    "time" : {
+      "start" : 1642305541757,
+      "stop" : 1642305541757,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "epic",
+    "value" : "Service tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign in"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1813@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogin"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.service.DBAuthenticationServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d6405ad4da6795ee",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/d6405ad4da6795ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300171868,
+          "stop" : 1642300171895,
+          "duration" : 27
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "88a0e60358668a09.json",
+  "parameterValues" : [ ]
+}

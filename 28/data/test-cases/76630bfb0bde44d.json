@@ -1,0 +1,55 @@
+{
+  "uid" : "76630bfb0bde44d",
+  "name" : "selecting email",
+  "fullName" : "App.selecting email",
+  "historyId" : "f280b0c187c51d99b3a1482b71e5f4e2",
+  "time" : {
+    "start" : 1642305443539,
+    "stop" : 1642305443543,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Selecting email from active mailbox"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "selecting email"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76630bfb0bde44d.json",
+  "parameterValues" : [ ]
+}

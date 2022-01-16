@@ -1,0 +1,101 @@
+{
+  "uid" : "e6fa053e1653e5c3",
+  "name" : "Getting sent",
+  "fullName" : "com.example.server.repo.PostgresPostRepoTest.testGettingSent",
+  "historyId" : "69cd6a5fb28c334c896dc0e7841b82ba",
+  "time" : {
+    "start" : 1642305507053,
+    "stop" : 1642305509010,
+    "duration" : 1957
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642305507069,
+      "stop" : 1642305507295,
+      "duration" : 226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "story",
+    "value" : "Getting mailbox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1813@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGettingSent"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1f59dd6c06313c8e",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/1f59dd6c06313c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300128456,
+          "stop" : 1642300130898,
+          "duration" : 2442
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e6fa053e1653e5c3.json",
+  "parameterValues" : [ ]
+}

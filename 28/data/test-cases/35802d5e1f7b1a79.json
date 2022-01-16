@@ -1,0 +1,55 @@
+{
+  "uid" : "35802d5e1f7b1a79",
+  "name" : "clicking on email",
+  "fullName" : "EmailListItem.clicking on email",
+  "historyId" : "a7cfcbfc5be65924d614095cfd155525",
+  "time" : {
+    "start" : 1642305444212,
+    "stop" : 1642305444214,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "story",
+    "value" : "Click on unselected email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "testMethod",
+    "value" : "clicking on email"
+  }, {
+    "name" : "package",
+    "value" : "EmailListItem"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35802d5e1f7b1a79.json",
+  "parameterValues" : [ ]
+}

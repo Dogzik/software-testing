@@ -1,0 +1,55 @@
+{
+  "uid" : "a58acf8e2cccda10",
+  "name" : "updating mailboxes after write",
+  "fullName" : "App.updating mailboxes after write",
+  "historyId" : "d4e9031ecf451f918d7242531c31f0ad",
+  "time" : {
+    "start" : 1642305443543,
+    "stop" : 1642305443550,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Updating mailbox after writing email"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "updating mailboxes after write"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a58acf8e2cccda10.json",
+  "parameterValues" : [ ]
+}

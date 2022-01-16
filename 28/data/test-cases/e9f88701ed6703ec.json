@@ -1,0 +1,55 @@
+{
+  "uid" : "e9f88701ed6703ec",
+  "name" : "clicking write",
+  "fullName" : "Sidebar.clicking write",
+  "historyId" : "540abc601e834dd223ca370da44d0f2",
+  "time" : {
+    "start" : 1642305444793,
+    "stop" : 1642305444796,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "Sidebar"
+  }, {
+    "name" : "story",
+    "value" : "Clicking write"
+  }, {
+    "name" : "suite",
+    "value" : "Sidebar"
+  }, {
+    "name" : "testClass",
+    "value" : "Sidebar"
+  }, {
+    "name" : "testMethod",
+    "value" : "clicking write"
+  }, {
+    "name" : "package",
+    "value" : "Sidebar"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9f88701ed6703ec.json",
+  "parameterValues" : [ ]
+}

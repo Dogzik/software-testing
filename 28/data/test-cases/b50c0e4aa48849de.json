@@ -1,0 +1,55 @@
+{
+  "uid" : "b50c0e4aa48849de",
+  "name" : "render email",
+  "fullName" : "EmailDetails.render email",
+  "historyId" : "87a0363b4703d04ba18e9e083ee84b3f",
+  "time" : {
+    "start" : 1642305444453,
+    "stop" : 1642305444455,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "story",
+    "value" : "Render email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "render email"
+  }, {
+    "name" : "package",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b50c0e4aa48849de.json",
+  "parameterValues" : [ ]
+}

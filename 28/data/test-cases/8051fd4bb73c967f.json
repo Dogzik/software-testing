@@ -1,0 +1,101 @@
+{
+  "uid" : "8051fd4bb73c967f",
+  "name" : "Signing up with same credentials twice",
+  "fullName" : "com.example.server.repo.PostgresAuthenticationRepoTest.testRegister",
+  "historyId" : "26ba3900b483fbbc629f18f190a36592",
+  "time" : {
+    "start" : 1642305537386,
+    "stop" : 1642305537409,
+    "duration" : 23
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642305537387,
+      "stop" : 1642305537393,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1813@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresAuthenticationRepoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresAuthenticationRepoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresAuthenticationRepoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2d2a81feacea1aec",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/2d2a81feacea1aec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300164266,
+          "stop" : 1642300164302,
+          "duration" : 36
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8051fd4bb73c967f.json",
+  "parameterValues" : [ ]
+}

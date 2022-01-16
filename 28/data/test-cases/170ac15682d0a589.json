@@ -1,0 +1,55 @@
+{
+  "uid" : "170ac15682d0a589",
+  "name" : "correct authentication via sign in form",
+  "fullName" : "LoginPage.correct authentication via sign in form",
+  "historyId" : "7394e2abe927d582cf36c33f87a4dd70",
+  "time" : {
+    "start" : 1642305443927,
+    "stop" : 1642305443929,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage"
+  }, {
+    "name" : "story",
+    "value" : "Successful sing in via form"
+  }, {
+    "name" : "suite",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct authentication via sign in form"
+  }, {
+    "name" : "package",
+    "value" : "LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "170ac15682d0a589.json",
+  "parameterValues" : [ ]
+}

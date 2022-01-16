@@ -1,0 +1,137 @@
+{
+  "uid" : "995eb25df3144d12",
+  "name" : "Registration with existing login",
+  "fullName" : "com.example.server.repo.PostgresAuthenticationRepoIntegrationTest.testRegistrationWithSameLogin",
+  "historyId" : "f0e2ed1cdfab54ca5d077b7db10d0241",
+  "time" : {
+    "start" : 1642309970163,
+    "stop" : 1642309972051,
+    "duration" : 1888
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initContainers",
+    "time" : {
+      "start" : 1642309970164,
+      "stop" : 1642309971724,
+      "duration" : 1560
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication repo integration tests"
+  }, {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "story",
+    "value" : "Sing up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-715"
+  }, {
+    "name" : "thread",
+    "value" : "1790@fv-az92-715.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresAuthenticationRepoIntegrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresAuthenticationRepoIntegrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegistrationWithSameLogin"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresAuthenticationRepoIntegrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "3a0d61d8d5c9070c",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/3a0d61d8d5c9070c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309827845,
+          "stop" : 1642309830040,
+          "duration" : 2195
+        }
+      }, {
+        "uid" : "8094a63cf52d2c9d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/8094a63cf52d2c9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308311155,
+          "stop" : 1642308313147,
+          "duration" : 1992
+        }
+      }, {
+        "uid" : "58c397956e420ea",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/58c397956e420ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307778379,
+          "stop" : 1642307780412,
+          "duration" : 2033
+        }
+      }, {
+        "uid" : "4e1ece792b3945f5",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/4e1ece792b3945f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305529541,
+          "stop" : 1642305531581,
+          "duration" : 2040
+        }
+      }, {
+        "uid" : "51c68e9debe64e50",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/51c68e9debe64e50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300155723,
+          "stop" : 1642300157904,
+          "duration" : 2181
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "995eb25df3144d12.json",
+  "parameterValues" : [ ]
+}

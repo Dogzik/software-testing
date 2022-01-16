@@ -1,0 +1,137 @@
+{
+  "uid" : "8359e291c1d3e5ac",
+  "name" : "Getting inbox",
+  "fullName" : "com.example.server.service.DBPostServiceTest.testGettingInbox",
+  "historyId" : "c2a8b42321fae9f10d78dba1d006f19d",
+  "time" : {
+    "start" : 1642309984464,
+    "stop" : 1642309984468,
+    "duration" : 4
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642309984464,
+      "stop" : 1642309984464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "epic",
+    "value" : "Service tests"
+  }, {
+    "name" : "story",
+    "value" : "Getting mailbox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-715"
+  }, {
+    "name" : "thread",
+    "value" : "1790@fv-az92-715.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGettingInbox"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.service.DBPostServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "db3e24ae7cd868e",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/db3e24ae7cd868e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309845195,
+          "stop" : 1642309845206,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "aa566cff27d3242",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/aa566cff27d3242",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308326213,
+          "stop" : 1642308326218,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "1f1d7c2620fae65c",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/1f1d7c2620fae65c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307793150,
+          "stop" : 1642307793156,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "c71ffc6c6521d007",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/c71ffc6c6521d007",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305542161,
+          "stop" : 1642305542166,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "72e2a77ca0cd10b4",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/72e2a77ca0cd10b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300172503,
+          "stop" : 1642300172513,
+          "duration" : 10
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8359e291c1d3e5ac.json",
+  "parameterValues" : [ ]
+}

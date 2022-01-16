@@ -1,0 +1,93 @@
+{
+  "uid" : "f6c630555b9e5179",
+  "name" : "selecting email",
+  "fullName" : "App.selecting email",
+  "historyId" : "f280b0c187c51d99b3a1482b71e5f4e2",
+  "time" : {
+    "start" : 1642309713082,
+    "stop" : 1642309713087,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Selecting email from active mailbox"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "selecting email"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3282a356111c5b51",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/3282a356111c5b51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308234240,
+          "stop" : 1642308234244,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "4deb80bd5dc3f744",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/4deb80bd5dc3f744",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690329,
+          "stop" : 1642307690332,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "76630bfb0bde44d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/76630bfb0bde44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443539,
+          "stop" : 1642305443543,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f6c630555b9e5179.json",
+  "parameterValues" : [ ]
+}

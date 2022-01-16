@@ -1,0 +1,93 @@
+{
+  "uid" : "1f6e69ba7c6e79ef",
+  "name" : "updating mailboxes after write",
+  "fullName" : "App.updating mailboxes after write",
+  "historyId" : "d4e9031ecf451f918d7242531c31f0ad",
+  "time" : {
+    "start" : 1642309713087,
+    "stop" : 1642309713094,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Updating mailbox after writing email"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "updating mailboxes after write"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "17000c237cbf07de",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/17000c237cbf07de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308234244,
+          "stop" : 1642308234252,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "7d29eca9ed4ac5c2",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/7d29eca9ed4ac5c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690332,
+          "stop" : 1642307690339,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "a58acf8e2cccda10",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/a58acf8e2cccda10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443543,
+          "stop" : 1642305443550,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f6e69ba7c6e79ef.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "bdcc369dbf25eca1",
+  "name" : "initial login page",
+  "fullName" : "Main window.initial login page",
+  "historyId" : "79872032c61ff3ee9a4902b789bd16af",
+  "time" : {
+    "start" : 1642309714230,
+    "stop" : 1642309714233,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "MainWindow"
+  }, {
+    "name" : "story",
+    "value" : "Initial login page"
+  }, {
+    "name" : "suite",
+    "value" : "Main window"
+  }, {
+    "name" : "testClass",
+    "value" : "Main window"
+  }, {
+    "name" : "testMethod",
+    "value" : "initial login page"
+  }, {
+    "name" : "package",
+    "value" : "Main window"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f25b962b63e90bf3",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/f25b962b63e90bf3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308235512,
+          "stop" : 1642308235515,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "f2bbe2a0aaa3d76d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/f2bbe2a0aaa3d76d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307691268,
+          "stop" : 1642307691270,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c42eb883ac732cd1",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/c42eb883ac732cd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444581,
+          "stop" : 1642305444583,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bdcc369dbf25eca1.json",
+  "parameterValues" : [ ]
+}

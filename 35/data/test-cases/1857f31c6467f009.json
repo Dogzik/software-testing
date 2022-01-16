@@ -1,0 +1,129 @@
+{
+  "uid" : "1857f31c6467f009",
+  "name" : "Getting mailboxes",
+  "fullName" : "com.example.server.repo.PostgresPostRepoIntegrationTest.testGettingMailboxes",
+  "historyId" : "a30fbde9a272248c8e0ae0d8e3e39524",
+  "time" : {
+    "start" : 1642309832243,
+    "stop" : 1642309834575,
+    "duration" : 2332
+  },
+  "description" : "Getting inbox and sent mailboxes for 2 user, that sent each other emails",
+  "descriptionHtml" : "<p>Getting inbox and sent mailboxes for 2 user, that sent each other emails</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initContainers",
+    "time" : {
+      "start" : 1642309832246,
+      "stop" : 1642309834201,
+      "duration" : 1955
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "feature",
+    "value" : "Post repo integration tests"
+  }, {
+    "name" : "story",
+    "value" : "Getting mailboxes"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "1968@fv-az101-496.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresPostRepoIntegrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresPostRepoIntegrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGettingMailboxes"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresPostRepoIntegrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "de04226dce02c652",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/de04226dce02c652",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308315109,
+          "stop" : 1642308317103,
+          "duration" : 1994
+        }
+      }, {
+        "uid" : "8cdf7346e5184e3d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/8cdf7346e5184e3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307782294,
+          "stop" : 1642307784310,
+          "duration" : 2016
+        }
+      }, {
+        "uid" : "32a2579d23a04b33",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/32a2579d23a04b33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305533547,
+          "stop" : 1642305535437,
+          "duration" : 1890
+        }
+      }, {
+        "uid" : "c1c007b5ed6deab7",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/c1c007b5ed6deab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300159883,
+          "stop" : 1642300162085,
+          "duration" : 2202
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1857f31c6467f009.json",
+  "parameterValues" : [ ]
+}

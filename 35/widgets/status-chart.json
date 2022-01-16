@@ -1,0 +1,641 @@
+[ {
+  "uid" : "bae8210afb866582",
+  "name" : "Login with non-existing credentials",
+  "time" : {
+    "start" : 1642309830050,
+    "stop" : 1642309832215,
+    "duration" : 2165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5799f0fd7e476de",
+  "name" : "no email",
+  "time" : {
+    "start" : 1642309714088,
+    "stop" : 1642309714090,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "635582fe6ee8eb32",
+  "name" : "Signing in with correct and incorrect credentials",
+  "time" : {
+    "start" : 1642309844601,
+    "stop" : 1642309844628,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d22cd445cb4832",
+  "name" : "display correct data",
+  "time" : {
+    "start" : 1642309713682,
+    "stop" : 1642309713686,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14a9ad9fdc8d740",
+  "name" : "registered user can sign in",
+  "time" : {
+    "start" : 1642310052550,
+    "stop" : 1642310053208,
+    "duration" : 658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b42e9d0dd5f940ce",
+  "name" : "failed Sign in via button",
+  "time" : {
+    "start" : 1642309713508,
+    "stop" : 1642309713512,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59040555b9628d4c",
+  "name" : "correct credentials display",
+  "time" : {
+    "start" : 1642309713524,
+    "stop" : 1642309713526,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c199bfd5e481fc1",
+  "name" : "return month with leading zeros",
+  "time" : {
+    "start" : 1642309713291,
+    "stop" : 1642309713291,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67019d41bfe656ea",
+  "name" : "selecting sent mailbox",
+  "time" : {
+    "start" : 1642309713078,
+    "stop" : 1642309713082,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "996bae7bc4c21788",
+  "name" : "Getting sent",
+  "time" : {
+    "start" : 1642309845072,
+    "stop" : 1642309845189,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "694a76b5c471c0fc",
+  "name" : "handling null controller response",
+  "time" : {
+    "start" : 1642309713690,
+    "stop" : 1642309713691,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbfc10017127247c",
+  "name" : "clicking write",
+  "time" : {
+    "start" : 1642309714468,
+    "stop" : 1642309714471,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e9aa9a7675f2e5a",
+  "name" : "user can not sign up twice",
+  "time" : {
+    "start" : 1642310054029,
+    "stop" : 1642310054697,
+    "duration" : 668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad589ecaf60eeeb7",
+  "name" : "Sending message for new user",
+  "time" : {
+    "start" : 1642310045147,
+    "stop" : 1642310046347,
+    "duration" : 1200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26126df15627ca8",
+  "name" : "unknown user can not sign in",
+  "time" : {
+    "start" : 1642310051831,
+    "stop" : 1642310052175,
+    "duration" : 344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39847c9997bee97b",
+  "name" : "render simple email",
+  "time" : {
+    "start" : 1642309713818,
+    "stop" : 1642309713821,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29f6d0e7adac30d5",
+  "name" : "failed Sign up via button",
+  "time" : {
+    "start" : 1642309713512,
+    "stop" : 1642309713514,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c55b1d88af393c40",
+  "name" : "Signing up with same credentials twice",
+  "time" : {
+    "start" : 1642309844369,
+    "stop" : 1642309844434,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "471e8709f1027f49",
+  "name" : "Signing in with correct and incorrect credentials",
+  "time" : {
+    "start" : 1642309843312,
+    "stop" : 1642309844358,
+    "duration" : 1046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be175d459af270dd",
+  "name" : "return sent email",
+  "time" : {
+    "start" : 1642309713299,
+    "stop" : 1642309713300,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1626e5e3e48c411c",
+  "name" : "correct authentication via Sign in button",
+  "time" : {
+    "start" : 1642309713515,
+    "stop" : 1642309713518,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20e18bad08a0da0f",
+  "name" : "empty list",
+  "time" : {
+    "start" : 1642309713963,
+    "stop" : 1642309713965,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dfed721720e7805",
+  "name" : "Empty new user",
+  "time" : {
+    "start" : 1642310042993,
+    "stop" : 1642310045145,
+    "duration" : 2152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a53126e2e1c7c84c",
+  "name" : "new user can sign up",
+  "time" : {
+    "start" : 1642310052176,
+    "stop" : 1642310052550,
+    "duration" : 374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72e80f96db8ea2e0",
+  "name" : "Registration new user",
+  "time" : {
+    "start" : 1642309823598,
+    "stop" : 1642309825738,
+    "duration" : 2140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b2024133897ba13",
+  "name" : "Login with wrong password",
+  "time" : {
+    "start" : 1642309803569,
+    "stop" : 1642309823592,
+    "duration" : 20023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e91ab00190845bd4",
+  "name" : "Login to non-empty mailbox",
+  "time" : {
+    "start" : 1642310046346,
+    "stop" : 1642310051824,
+    "duration" : 5478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3423ad6ef7f873d",
+  "name" : "selection",
+  "time" : {
+    "start" : 1642309713969,
+    "stop" : 1642309713971,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e96c7f687657f75",
+  "name" : "selecting mailbox",
+  "time" : {
+    "start" : 1642309714342,
+    "stop" : 1642309714346,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db3e24ae7cd868e",
+  "name" : "Getting inbox",
+  "time" : {
+    "start" : 1642309845195,
+    "stop" : 1642309845206,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aa4c7ec31e6103f",
+  "name" : "Login after registration",
+  "time" : {
+    "start" : 1642309825743,
+    "stop" : 1642309827838,
+    "duration" : 2095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "297500528318cf75",
+  "name" : "Sending single email",
+  "time" : {
+    "start" : 1642309803523,
+    "stop" : 1642309803541,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41960ad51239dc2c",
+  "name" : "Signing in with correct and incorrect credentials",
+  "time" : {
+    "start" : 1642309836829,
+    "stop" : 1642309836867,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdcc369dbf25eca1",
+  "name" : "initial login page",
+  "time" : {
+    "start" : 1642309714230,
+    "stop" : 1642309714233,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bfa6625e3531169",
+  "name" : "failed Sign in via form",
+  "time" : {
+    "start" : 1642309713514,
+    "stop" : 1642309713515,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b12ecdda45919306",
+  "name" : "return hours with leading zeros",
+  "time" : {
+    "start" : 1642309713296,
+    "stop" : 1642309713296,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "516def693c9f8e10",
+  "name" : "correct authentication via sign in form",
+  "time" : {
+    "start" : 1642309713521,
+    "stop" : 1642309713524,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50b203b8963b7896",
+  "name" : "return same time for different date",
+  "time" : {
+    "start" : 1642309713295,
+    "stop" : 1642309713296,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4453ae834656c6cd",
+  "name" : "return minutes with leading zeros",
+  "time" : {
+    "start" : 1642309713296,
+    "stop" : 1642309713297,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "710716aebfb5fe7b",
+  "name" : "rendering selected email",
+  "time" : {
+    "start" : 1642309713822,
+    "stop" : 1642309713832,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efd7ef01eb834d54",
+  "name" : "opening editor",
+  "time" : {
+    "start" : 1642309713073,
+    "stop" : 1642309713078,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56617c758f00f1b4",
+  "name" : "registered user uses wrong password",
+  "time" : {
+    "start" : 1642310053209,
+    "stop" : 1642310054029,
+    "duration" : 820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d9da5fa03b4d4d2",
+  "name" : "return date with leafing zeros",
+  "time" : {
+    "start" : 1642309713291,
+    "stop" : 1642309713292,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f8b1f152379f878",
+  "name" : "Sending single email",
+  "time" : {
+    "start" : 1642309834579,
+    "stop" : 1642309836805,
+    "duration" : 2226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9070c2d91e4350d",
+  "name" : "Getting sent",
+  "time" : {
+    "start" : 1642309800845,
+    "stop" : 1642309803252,
+    "duration" : 2407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6c630555b9e5179",
+  "name" : "selecting email",
+  "time" : {
+    "start" : 1642309713082,
+    "stop" : 1642309713087,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a32fb73d71f6d31c",
+  "name" : "non-empty list",
+  "time" : {
+    "start" : 1642309713966,
+    "stop" : 1642309713969,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1857f31c6467f009",
+  "name" : "Getting mailboxes",
+  "time" : {
+    "start" : 1642309832243,
+    "stop" : 1642309834575,
+    "duration" : 2332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e71da83e98754d45",
+  "name" : "return same date for different time",
+  "time" : {
+    "start" : 1642309713290,
+    "stop" : 1642309713291,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97f547a956e6e7c0",
+  "name" : "Getting inbox",
+  "time" : {
+    "start" : 1642309803432,
+    "stop" : 1642309803517,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "747bc7d7694fe96c",
+  "name" : "return correct time from timestamp",
+  "time" : {
+    "start" : 1642309713295,
+    "stop" : 1642309713295,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0a332d682fd6",
+  "name" : "Signing up with same credentials twice",
+  "time" : {
+    "start" : 1642309844639,
+    "stop" : 1642309844657,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a0d61d8d5c9070c",
+  "name" : "Registration with existing login",
+  "time" : {
+    "start" : 1642309827845,
+    "stop" : 1642309830040,
+    "duration" : 2195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f991c5c3e794e4e",
+  "name" : "Correctly filling id and time and sending email",
+  "time" : {
+    "start" : 1642309845212,
+    "stop" : 1642309845348,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80a42a138be0e521",
+  "name" : "render email",
+  "time" : {
+    "start" : 1642309714090,
+    "stop" : 1642309714101,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb563425272ae947",
+  "name" : "return correct date from timestamp",
+  "time" : {
+    "start" : 1642309713290,
+    "stop" : 1642309713290,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b552cd9194ec6f5b",
+  "name" : "initial render",
+  "time" : {
+    "start" : 1642309713050,
+    "stop" : 1642309713073,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "736d28fdf4b2e233",
+  "name" : "clicking on email",
+  "time" : {
+    "start" : 1642309713821,
+    "stop" : 1642309713822,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "490118660a54ff80",
+  "name" : "correct authentication via Sign up button",
+  "time" : {
+    "start" : 1642309713518,
+    "stop" : 1642309713521,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "824c1118d4269a52",
+  "name" : "successful login",
+  "time" : {
+    "start" : 1642309714233,
+    "stop" : 1642309714237,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f6e69ba7c6e79ef",
+  "name" : "updating mailboxes after write",
+  "time" : {
+    "start" : 1642309713087,
+    "stop" : 1642309713094,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b91c645486662c2f",
+  "name" : "correctly sending email",
+  "time" : {
+    "start" : 1642309713686,
+    "stop" : 1642309713690,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d74858912c923261",
+  "name" : "return inbox email",
+  "time" : {
+    "start" : 1642309713299,
+    "stop" : 1642309713299,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b4ff295fba6bec3",
+  "name" : "Signing up with same credentials twice",
+  "time" : {
+    "start" : 1642309836871,
+    "stop" : 1642309836886,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

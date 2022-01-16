@@ -1,0 +1,75 @@
+{
+  "uid" : "1108275d2f4d9efc",
+  "name" : "render email",
+  "fullName" : "EmailDetails.render email",
+  "historyId" : "87a0363b4703d04ba18e9e083ee84b3f",
+  "time" : {
+    "start" : 1642307691150,
+    "stop" : 1642307691159,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "story",
+    "value" : "Render email"
+  }, {
+    "name" : "suite",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "render email"
+  }, {
+    "name" : "package",
+    "value" : "EmailDetails"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b50c0e4aa48849de",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/b50c0e4aa48849de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444453,
+          "stop" : 1642305444455,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1108275d2f4d9efc.json",
+  "parameterValues" : [ ]
+}

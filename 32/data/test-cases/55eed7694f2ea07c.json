@@ -1,0 +1,75 @@
+{
+  "uid" : "55eed7694f2ea07c",
+  "name" : "handling null controller response",
+  "fullName" : "EmailEditor.handling null controller response",
+  "historyId" : "3c64ad4ac8a679e46360df85c9f881c6",
+  "time" : {
+    "start" : 1642307690827,
+    "stop" : 1642307690828,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "story",
+    "value" : "Null controller response"
+  }, {
+    "name" : "suite",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testClass",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "testMethod",
+    "value" : "handling null controller response"
+  }, {
+    "name" : "package",
+    "value" : "EmailEditor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c92ab96d018b1f93",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/c92ab96d018b1f93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305444093,
+          "stop" : 1642305444094,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "55eed7694f2ea07c.json",
+  "parameterValues" : [ ]
+}

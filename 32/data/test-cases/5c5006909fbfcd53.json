@@ -1,0 +1,75 @@
+{
+  "uid" : "5c5006909fbfcd53",
+  "name" : "correct authentication via sign in form",
+  "fullName" : "LoginPage.correct authentication via sign in form",
+  "historyId" : "7394e2abe927d582cf36c33f87a4dd70",
+  "time" : {
+    "start" : 1642307690692,
+    "stop" : 1642307690694,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage"
+  }, {
+    "name" : "story",
+    "value" : "Successful sing in via form"
+  }, {
+    "name" : "suite",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct authentication via sign in form"
+  }, {
+    "name" : "package",
+    "value" : "LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "170ac15682d0a589",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/170ac15682d0a589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443927,
+          "stop" : 1642305443929,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c5006909fbfcd53.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "12d8f2ba7c72ffb3",
+  "name" : "return correct date from timestamp",
+  "fullName" : "getEmailDate.return correct date from timestamp",
+  "historyId" : "bda44e17a4f122d8234f4c7e0e7b4c1d",
+  "time" : {
+    "start" : 1642307690501,
+    "stop" : 1642307690501,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "story",
+    "value" : "Get correct date"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testMethod",
+    "value" : "return correct date from timestamp"
+  }, {
+    "name" : "package",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "42f5a6048bbb12df",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/42f5a6048bbb12df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443722,
+          "stop" : 1642305443722,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "12d8f2ba7c72ffb3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "adafc011628aa9e1",
+  "name" : "selecting sent mailbox",
+  "fullName" : "App.selecting sent mailbox",
+  "historyId" : "33d71f5a6a0dc8650d80dc277cbe5ba5",
+  "time" : {
+    "start" : 1642307690326,
+    "stop" : 1642307690329,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "App"
+  }, {
+    "name" : "story",
+    "value" : "Selecting sent mailbox"
+  }, {
+    "name" : "suite",
+    "value" : "App"
+  }, {
+    "name" : "testClass",
+    "value" : "App"
+  }, {
+    "name" : "testMethod",
+    "value" : "selecting sent mailbox"
+  }, {
+    "name" : "package",
+    "value" : "App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c69366e8de806d63",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/c69366e8de806d63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443535,
+          "stop" : 1642305443539,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "adafc011628aa9e1.json",
+  "parameterValues" : [ ]
+}

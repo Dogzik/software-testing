@@ -1,0 +1,75 @@
+{
+  "uid" : "5edb6b7972df7ded",
+  "name" : "failed Sign up via button",
+  "fullName" : "LoginPage.failed Sign up via button",
+  "historyId" : "a4c005a716bbe3c9b565caba8ddfd0ea",
+  "time" : {
+    "start" : 1642307690684,
+    "stop" : 1642307690686,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage"
+  }, {
+    "name" : "story",
+    "value" : "$Failed Sign up via button"
+  }, {
+    "name" : "suite",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed Sign up via button"
+  }, {
+    "name" : "package",
+    "value" : "LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d91a57bb5bfd5a89",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/d91a57bb5bfd5a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443919,
+          "stop" : 1642305443921,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5edb6b7972df7ded.json",
+  "parameterValues" : [ ]
+}

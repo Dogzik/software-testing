@@ -1,0 +1,75 @@
+{
+  "uid" : "a1169af3b7a68520",
+  "name" : "return month with leading zeros",
+  "fullName" : "getEmailDate.return month with leading zeros",
+  "historyId" : "1d6aa477d3f2e04918eff5bd156f90fa",
+  "time" : {
+    "start" : 1642307690502,
+    "stop" : 1642307690502,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "story",
+    "value" : "Month with leading zeros"
+  }, {
+    "name" : "suite",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testClass",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "testMethod",
+    "value" : "return month with leading zeros"
+  }, {
+    "name" : "package",
+    "value" : "getEmailDate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8f95864308b568e3",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/8f95864308b568e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443723,
+          "stop" : 1642305443723,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a1169af3b7a68520.json",
+  "parameterValues" : [ ]
+}

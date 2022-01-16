@@ -1,15 +1,23 @@
 import TestRenderer from 'react-test-renderer';
 import EmailDetails from './EmailDetails.js';
-import { getEmailDate, getEmailTime } from '../../utils/Utils.js';
+import { CLIENT_EPIC, getEmailDate, getEmailTime } from '../../utils/Utils.js';
 
 describe('EmailDetails', () => {
+  function allureInfo(story) {
+    reporter.epic(CLIENT_EPIC);
+    reporter.feature('EmailDetails');
+    reporter.story(story);
+  }
+
   test('no email', () => {
+    allureInfo('Render no email');
     const root = TestRenderer.create(<EmailDetails email={null}/>).root;
     expect(root.children[0].children).toHaveLength(0);
     expect(root.findByType('div').props.className).toEqual('EmailDetails');
   });
 
   test('render email', () => {
+    allureInfo('Render email');
     const date = Date.parse('2012-11-15 14:22');
     const email = {
       time: date / 1000,

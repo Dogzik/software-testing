@@ -7,11 +7,17 @@ import com.example.server.utils.TimeService
 import com.example.server.utils.UUIDGenerator
 import com.example.server.utils.randomEmail
 import io.mockk.*
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
+@Epic("Service tests")
+@Feature("Post tests")
 class DBPostServiceTest {
     private val mockPostRepo = mockk<PostRepo>()
     private val mockTime = mockk<TimeService>()
@@ -24,6 +30,8 @@ class DBPostServiceTest {
     }
 
     @Test
+    @Story("Sending email")
+    @DisplayName("Correctly filling id and time and sending email")
     fun testSendingEmail() = runBlocking {
         val testData = IncompleteEmail("from", "to", "subject", "text")
         val testTime = 159814351L
@@ -60,9 +68,13 @@ class DBPostServiceTest {
     }
 
     @Test
+    @Story("Getting mailbox")
+    @DisplayName("Getting inbox")
     fun testGettingInbox() = testGettingMailbox({ getInbox(it) }) { getInbox(it) }
 
 
     @Test
+    @Story("Getting mailbox")
+    @DisplayName("Getting sent")
     fun testGettingSent() = testGettingMailbox({ getSent(it) }) { getSent(it) }
 }

@@ -5,6 +5,7 @@ import Sidebar from '../Sidebar/Sidebar.js';
 import EmailList from '../EmailList/EmailList.js';
 import EmailEditor from '../EmailWindow/EmailEditor/EmailEditor.js';
 import waitForExpect from 'wait-for-expect';
+import { CLIENT_EPIC } from '../utils/Utils.js';
 
 describe('App', () => {
   const USER = 'from@user.user';
@@ -58,7 +59,14 @@ describe('App', () => {
     });
   }
 
+  function allureInfo(story) {
+    reporter.epic(CLIENT_EPIC);
+    reporter.feature('App');
+    reporter.story(story);
+  }
+
   test('initial render', async () => {
+    allureInfo('Render initial app');
     const root = TestRenderer.create(<App user={USER} postClient={mockClient}/>).root;
     await waitForFullMount(root);
     const emailDetails = root.findByType(EmailDetails);
@@ -74,6 +82,7 @@ describe('App', () => {
   });
 
   test('opening editor', async () => {
+    allureInfo('Opening editor');
     const root = TestRenderer.create(<App user={USER} postClient={mockClient}/>).root;
     await waitForFullMount(root);
     const sidebar = root.findByType(Sidebar);
@@ -83,6 +92,7 @@ describe('App', () => {
   });
 
   test('selecting sent mailbox', async () => {
+    allureInfo('Selecting sent mailbox');
     const root = TestRenderer.create(<App user={USER} postClient={mockClient}/>).root;
     await waitForFullMount(root);
     const sidebar = root.findByType(Sidebar);
@@ -93,6 +103,7 @@ describe('App', () => {
   });
 
   test('selecting email', async () => {
+    allureInfo('Selecting email from active mailbox');
     const root = TestRenderer.create(<App user={USER} postClient={mockClient}/>).root;
     await waitForFullMount(root);
     const emailsList = root.findByType(EmailList);
@@ -103,6 +114,7 @@ describe('App', () => {
   });
 
   test('updating mailboxes after write', async () => {
+    allureInfo('Updating mailbox after writing email');
     const newSent = [
       ...SAMPLE_SENT,
       {

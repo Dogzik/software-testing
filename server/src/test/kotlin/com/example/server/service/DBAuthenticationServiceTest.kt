@@ -6,11 +6,17 @@ import io.mockk.clearMocks
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
+@Epic("Service tests")
+@Feature("Authentication tests")
 class DBAuthenticationServiceTest {
     private val mockAuthRepo = mockk<AuthenticationRepo>()
     private val authService = DBAuthenticationService(mockAuthRepo)
@@ -21,6 +27,8 @@ class DBAuthenticationServiceTest {
     }
 
     @Test
+    @Story("Sign in")
+    @DisplayName("Signing in with correct and incorrect credentials")
     fun testLogin() = runBlocking {
         val wrongCredentials = Credentials("false", "false")
         val correctCredentials = Credentials("true", "true")
@@ -35,6 +43,8 @@ class DBAuthenticationServiceTest {
     }
 
     @Test
+    @Story("Sign up")
+    @DisplayName("Signing up with same credentials twice")
     fun testRegister() = runBlocking {
         val testCredentials = Credentials("aaa", "bbb")
         coEvery { mockAuthRepo.register(testCredentials) } returns true andThen false

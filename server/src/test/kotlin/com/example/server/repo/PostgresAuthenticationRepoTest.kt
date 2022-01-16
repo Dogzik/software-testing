@@ -4,11 +4,17 @@ import com.example.server.model.Credentials
 import com.github.jasync.sql.db.QueryResult
 import com.github.jasync.sql.db.SuspendingConnection
 import io.mockk.*
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
+@Epic("Repo tests")
+@Feature("Authentication tests")
 class PostgresAuthenticationRepoTest {
     private val mockedConnectionProvider = mockk<ConnectionProvider>()
     private val authRepo = PostgresAuthenticationRepo(mockedConnectionProvider)
@@ -33,6 +39,8 @@ class PostgresAuthenticationRepoTest {
         }
 
     @Test
+    @Story("Sign in")
+    @DisplayName("Signing in with correct and incorrect credentials")
     fun testLogin() = runBlocking {
         val wrongParams = listOf("false", "false")
         val correctParams = listOf("true", "true")
@@ -52,6 +60,8 @@ class PostgresAuthenticationRepoTest {
     }
 
     @Test
+    @Story("Sign up")
+    @DisplayName("Signing up with same credentials twice")
     fun testRegister() = runBlocking {
         val testParams = listOf("aaa", "bbb")
         val testCredentials = Credentials(testParams[0], testParams[1])

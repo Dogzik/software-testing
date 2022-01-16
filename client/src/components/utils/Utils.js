@@ -22,3 +22,5 @@ export function toInternalEmail(rawEmail, inbox) {
     text: rawEmail.text,
   };
 }
+
+export const CLIENT_EPIC = 'Client component tests';

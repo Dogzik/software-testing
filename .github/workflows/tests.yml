@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - master
-      
+      - test-ci
+
 env:
   NODE_VERSION: 14
 
@@ -27,17 +28,29 @@ jobs:
       - name: Run tests
         working-directory: client
         run: npm test
-      
+
+      - name: Upload Allure Reports Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results-client
+          path: client/allure-results
+
   backend-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout to actual version
         uses: actions/checkout@v2
-        
+
       - name: Run tests
         working-directory: server
         run: ./gradlew test
-        
+
+      - name: Upload Allure Reports Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results-server
+          path: server/build/allure-results
+
   end-to-end-tests:
     needs:
       - backend-tests
@@ -73,30 +86,92 @@ jobs:
             GRANT ALL PRIVILEGES ON DATABASE $POSTGRES_DB TO $APP_DB_USER;
           EOSQL
           PGPASSWORD=$APP_DB_PASS psql --host localhost --port $POSTGRES_PORT --username $APP_DB_USER --dbname $POSTGRES_DB -f server/scripts/create-tables.sql
-          
+
       - name: Build server
         working-directory: server
         run: ./gradlew assemble
-          
+
       - name: Start server
         working-directory: server
         run: ./gradlew bootRun &
-        
+
       - name: Setup Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ env.NODE_VERSION }}
-        
+
       - name: Install client dependencies
         working-directory: client
         run: |
           npm ci
           npx playwright install --with-deps
-          
+
       - name: Start client
         working-directory: client
         run: npm start &
-          
+
       - name: Run playwright tests
         working-directory: client
-        run: npx playwright test e2e
+        run: npx playwright test --reporter=line,allure-playwright e2e
+        
+      - name: Upload Allure Reports Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results-e2e
+          path: client/allure-results
+
+  upload-allure-result:
+    needs:
+      - backend-tests
+      - frontend-tests
+      - end-to-end-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get server results
+        uses: actions/download-artifact@v2
+        with:
+          name: allure-results-server
+          path: allure-results
+
+      - name: Get client results
+        uses: actions/download-artifact@v2
+        with:
+          name: allure-results-client
+          path: allure-results
+          
+      - name: Get e2e results
+        uses: actions/download-artifact@v2
+        with:
+          name: allure-results-e2e
+          path: allure-results
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        continue-on-error: true
+        with:
+          ref: allure-reports-pages
+          path: allure-reports-pages
+
+      - name: Create allure report
+        uses: simple-elf/allure-report-action@v1.5
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: allure-reports-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: allure-reports-pages
+          PUBLISH_DIR: allure-history
+
+      - name: Delete allure reports from artifacts
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            allure-results-client
+            allure-results-server
+            allure-results-e2e

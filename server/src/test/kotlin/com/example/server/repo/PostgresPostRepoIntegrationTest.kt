@@ -5,12 +5,19 @@ import com.example.server.model.Email
 import com.example.server.utils.UUIDPool
 import com.example.server.utils.getContainerWithConfig
 import com.example.server.utils.randomEmail
+import io.qameta.allure.Description
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.testcontainers.containers.PostgreSQLContainer
 
+@Epic("Repo tests")
+@Feature("Post repo integration tests")
 class PostgresPostRepoIntegrationTest {
     private lateinit var config: DatabaseConfig
     private lateinit var container: PostgreSQLContainer<*>
@@ -31,6 +38,9 @@ class PostgresPostRepoIntegrationTest {
     private fun randomEmailWithUsers(src: String, dst: String) = randomEmailWithId().copy(from = src, to = dst)
 
     @Test
+    @Story("Sending email")
+    @DisplayName("Sending single email")
+    @Description("Sending single email and checking its presence in database")
     fun testSendingEmail() = runBlocking {
         container.use {
             val email = randomEmailWithId()
@@ -51,6 +61,9 @@ class PostgresPostRepoIntegrationTest {
     }
 
     @Test
+    @Story("Getting mailboxes")
+    @DisplayName("Getting mailboxes")
+    @Description("Getting inbox and sent mailboxes for 2 user, that sent each other emails")
     fun testGettingMailboxes() = runBlocking {
         val user1 = "kek@lol.com"
         val user2 = "lol@lel.com"

@@ -1,8 +1,16 @@
 import TestRenderer from 'react-test-renderer';
 import Sidebar from './Sidebar.js';
+import { CLIENT_EPIC } from '../utils/Utils.js';
 
 describe('Sidebar', () => {
+  function allureInfo(story) {
+    reporter.epic(CLIENT_EPIC);
+    reporter.feature('Sidebar');
+    reporter.story(story);
+  }
+
   test('clicking write', () => {
+    allureInfo('Clicking write');
     const user = 'lolo@keke.net';
     const onClickWrite = jest.fn();
     const root = TestRenderer.create(<Sidebar user={user} onClickWrite={onClickWrite} mailboxes={[]} onSelectMailbox={jest.fn()}/>).root;

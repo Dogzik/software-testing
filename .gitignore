@@ -24,3 +24,5 @@ yarn-error.log*
 
 .gradle/
 .idea/
+.allure/
+allure-results/

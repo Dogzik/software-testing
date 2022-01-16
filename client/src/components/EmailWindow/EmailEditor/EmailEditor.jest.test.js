@@ -1,12 +1,20 @@
 import TestRenderer from 'react-test-renderer';
 import EmailEditor from './EmailEditor.js';
+import { CLIENT_EPIC } from '../../utils/Utils.js';
 
 describe('EmailEditor', () => {
   const address = 'aaaa@bbb.ccc';
   const subject = 'ssssuuuubbbjjjeeeccttt';
   const text = 'ttttteeeeeeexxxxxxxttttt';
 
+  function allureInfo(story) {
+    reporter.epic(CLIENT_EPIC);
+    reporter.feature('EmailEditor');
+    reporter.story(story);
+  }
+
   test('display correct data', () => {
+    allureInfo('Just render data');
     const root = TestRenderer.create(<EmailEditor from={'from'} onSend={jest.fn()} postClient={{ sendEmail: jest.fn() }}/>).root;
     const [addressInput, subjectInput] = root.findAllByType('input');
     const textInput = root.findByType('textarea');
@@ -19,6 +27,7 @@ describe('EmailEditor', () => {
   });
 
   test('correctly sending email', async () => {
+    allureInfo('Sending email');
     const mockClient = {
       sendEmail: jest.fn(async (from, to, subject, text) => 'new_id'),
     };
@@ -38,6 +47,7 @@ describe('EmailEditor', () => {
   });
 
   test('handling null controller response', async () => {
+    allureInfo('Null controller response');
     const mockClient = {
       sendEmail: jest.fn(async (from, to, subject, text) => null),
     };

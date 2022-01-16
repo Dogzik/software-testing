@@ -6,11 +6,17 @@ import com.github.jasync.sql.db.ResultSet
 import com.github.jasync.sql.db.RowData
 import com.github.jasync.sql.db.SuspendingConnection
 import io.mockk.*
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
+@Epic("Repo tests")
+@Feature("Post tests")
 class PostgresPostRepoTest {
     private val mockConnectionProvider = mockk<ConnectionProvider>()
     private val postRepo = PostgresPostRepo(mockConnectionProvider)
@@ -21,6 +27,8 @@ class PostgresPostRepoTest {
     }
 
     @Test
+    @Story("Sending email")
+    @DisplayName("Sending single email")
     fun testSendingEmail() = runBlocking {
         val email = randomEmail()
         val params = listOf(email.id, email.from, email.to, email.subject, email.time, email.text)
@@ -84,9 +92,13 @@ class PostgresPostRepoTest {
     }
 
     @Test
+    @Story("Getting mailbox")
+    @DisplayName("Getting inbox")
     fun testGettingInbox() = testGettingMailbox(PostgresPostRepo.getInboxQuery) { getInbox(it) }
 
 
     @Test
+    @Story("Getting mailbox")
+    @DisplayName("Getting sent")
     fun testGettingSent() = testGettingMailbox(PostgresPostRepo.getSentQuery) { getSent(it) }
 }

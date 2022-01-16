@@ -6,8 +6,12 @@ import com.example.server.model.Credentials
 import com.example.server.service.AuthenticationService
 import io.mockk.coEvery
 import io.mockk.coVerify
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
@@ -19,6 +23,8 @@ import org.springframework.test.web.servlet.post
 
 @WebMvcTest(AuthenticationController::class)
 @Import(MockkServiceTestConfiguration::class, SpringMockkServiceTestConfiguration::class)
+@Epic("Controller tests")
+@Feature("Authentication tests")
 class AuthenticationControllerTest {
     @Autowired
     private lateinit var authService: AuthenticationService
@@ -39,6 +45,8 @@ class AuthenticationControllerTest {
         sendAuthRequest("/register", credentials)
 
     @Test
+    @Story("Sign in")
+    @DisplayName("Signing in with correct and incorrect credentials")
     fun testLogin() {
         val wrongCredentials = Credentials("false", "false")
         val correctCredentials = Credentials("true", "true")
@@ -59,6 +67,8 @@ class AuthenticationControllerTest {
     }
 
     @Test
+    @Story("Sign up")
+    @DisplayName("Signing up with same credentials twice")
     fun testRegister() {
         val credentials = Credentials("aaa", "bbb")
         coEvery { authService.register(credentials) } returns true andThen false

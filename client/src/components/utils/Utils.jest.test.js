@@ -1,7 +1,14 @@
 import { getEmailDate, getEmailTime, toInternalEmail } from './Utils.js';
 
+function allureInfo(feature, story) {
+  reporter.epic('Client unit tests');
+  reporter.feature(feature);
+  reporter.story(story);
+}
+
 describe('getEmailDate', () => {
   test('return correct date from timestamp', () => {
+    allureInfo('getEmailDate', 'Get correct date');
     const year = 1337;
     const month = 11;
     const date = 28;
@@ -12,6 +19,7 @@ describe('getEmailDate', () => {
   });
 
   test('return same date for different time', () => {
+    allureInfo('getEmailDate', 'Same date for different time');
     const year = 2000;
     const month = 10;
     const date = 20;
@@ -26,7 +34,8 @@ describe('getEmailDate', () => {
     expect(firstActual).toEqual(`${year}/${month}/${date}`);
   });
 
-  test('return month with leafing zeros', () => {
+  test('return month with leading zeros', () => {
+    allureInfo('getEmailDate', 'Month with leading zeros');
     const year = 2200;
     const month = 7;
     const date = 15;
@@ -38,6 +47,7 @@ describe('getEmailDate', () => {
   });
 
   test('return date with leafing zeros', () => {
+    allureInfo('getEmailDate', 'Date with leading zeros');
     const year = 2010;
     const month = 11;
     const date = 4;
@@ -51,6 +61,7 @@ describe('getEmailDate', () => {
 
 describe('getEmailTime', () => {
   test('return correct time from timestamp', () => {
+    allureInfo('getEmailTime', 'Get correct time');
     const hours = 14;
     const minutes = 15;
     const fullDate = new Date();
@@ -60,6 +71,7 @@ describe('getEmailTime', () => {
   });
 
   test('return same time for different date', () => {
+    allureInfo('getEmailTime', 'Same time for different dates');
     const hours = 22;
     const minutes = 10;
     const firstDate = new Date();
@@ -74,6 +86,7 @@ describe('getEmailTime', () => {
   });
 
   test('return hours with leading zeros', () => {
+    allureInfo('getEmailTime', 'Hours with leading zeros');
     const hours = 4;
     const minutes = 20;
     const fullDate = new Date();
@@ -84,6 +97,7 @@ describe('getEmailTime', () => {
   });
 
   test('return minutes with leading zeros', () => {
+    allureInfo('getEmailTime', 'Minutes with leading zeros');
     const hours = 22;
     const minutes = 8;
     const fullDate = new Date();
@@ -105,6 +119,7 @@ describe('toInternalEmail', () => {
   };
 
   test('return inbox email', () => {
+    allureInfo('toInternalEmail', 'Inbox email');
     const actual = toInternalEmail(rawEmail, true);
     const expected = {
       id: rawEmail.id,
@@ -117,6 +132,7 @@ describe('toInternalEmail', () => {
   });
 
   test('return sent email', () => {
+    allureInfo('toInternalEmail', 'Sent email');
     const actual = toInternalEmail(rawEmail, false);
     const expected = {
       id: rawEmail.id,

@@ -40,3 +40,10 @@
 
 ### Main
 * Добавлен [Github action](.github/workflows/tests.yml) для запуска тестов на бэкенд, фронтенд и E2E
+---
+
+## HW4
+
+### Bonus
+* Настроен [Allure report](https://dogzik.github.io/software-testing) для написанных unit, component, integration и e2e тестов
+

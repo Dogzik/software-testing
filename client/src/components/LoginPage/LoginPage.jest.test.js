@@ -1,5 +1,6 @@
 import TestRenderer from 'react-test-renderer';
 import LoginPage from './LoginPage.js';
+import { CLIENT_EPIC } from '../utils/Utils.js';
 
 describe('LoginPage', () => {
   const FAULTY_CONTROLLER = {
@@ -11,7 +12,14 @@ describe('LoginPage', () => {
     },
   };
 
+  function allureInfo(story) {
+    reporter.epic(CLIENT_EPIC);
+    reporter.feature('LoginPage');
+    reporter.story(story);
+  }
+
   test.each([['Sign in'], ['Sign up']])('failed %s via button', async (name) => {
+    allureInfo(`$Failed ${name} via button`);
     const onSign = jest.fn();
     const root = TestRenderer.create(<LoginPage postClient={FAULTY_CONTROLLER} onSign={onSign}/>).root;
     const signButton = root.find((el) => (el.type === 'button') && (el.children[0] === name));
@@ -24,6 +32,7 @@ describe('LoginPage', () => {
   });
 
   test('failed Sign in via form', async () => {
+    allureInfo('Failed sing in via form');
     const onSign = jest.fn();
     const root = TestRenderer.create(<LoginPage postClient={FAULTY_CONTROLLER} onSign={onSign}/>).root;
     const signInForm = root.findByType('form');
@@ -34,6 +43,7 @@ describe('LoginPage', () => {
   });
 
   test.each([['Sign in'], ['Sign up']])('correct authentication via %s button', async (name) => {
+    allureInfo(`Successful ${name} via button`);
     const mockAuthenticator = jest.fn(async (_, login, password) => {return { ok: true };});
     const mockController = { checkAuthentication: mockAuthenticator };
     const onSign = jest.fn();
@@ -54,6 +64,7 @@ describe('LoginPage', () => {
   });
 
   test('correct authentication via sign in form', async () => {
+    allureInfo('Successful sing in via form');
     const mockAuthenticator = jest.fn(async (_, login, password) => {return { ok: true };});
     const mockController = { checkAuthentication: mockAuthenticator };
     const onSign = jest.fn();
@@ -73,6 +84,7 @@ describe('LoginPage', () => {
   });
 
   test('correct credentials display', () => {
+    allureInfo('Displaying credentials');
     const login = 'kek';
     const password = 'lol';
 

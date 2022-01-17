@@ -1,0 +1,147 @@
+{
+  "uid" : "c26389fb0a1c69bb",
+  "name" : "correct authentication via Sign up button",
+  "fullName" : "LoginPage.correct authentication via Sign up button",
+  "historyId" : "654068bbf9fffd3268861db84a3f9036",
+  "time" : {
+    "start" : 1642459101234,
+    "stop" : 1642459101236,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client component tests"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage"
+  }, {
+    "name" : "story",
+    "value" : "Successful Sign up via button"
+  }, {
+    "name" : "suite",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct authentication via Sign up button"
+  }, {
+    "name" : "package",
+    "value" : "LoginPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "d146a96822de9c85",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/40//#testresult/d146a96822de9c85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642458697285,
+          "stop" : 1642458697289,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "9306f22d6e85579c",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/39//#testresult/9306f22d6e85579c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642458175757,
+          "stop" : 1642458175759,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "3a5d07938b9ecbbf",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/38//#testresult/3a5d07938b9ecbbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642457288865,
+          "stop" : 1642457288868,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "ae79ae510318dc0b",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/36//#testresult/ae79ae510318dc0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309875185,
+          "stop" : 1642309875187,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f810eae99a155047",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/37//#testresult/f810eae99a155047",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309895555,
+          "stop" : 1642309895558,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "490118660a54ff80",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/490118660a54ff80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309713518,
+          "stop" : 1642309713521,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "f583efbcb0cbc97",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/f583efbcb0cbc97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308234701,
+          "stop" : 1642308234704,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "94a0f145d6dcb91f",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/94a0f145d6dcb91f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690690,
+          "stop" : 1642307690692,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "43e9147a58572fb4",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/43e9147a58572fb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443924,
+          "stop" : 1642305443927,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c26389fb0a1c69bb.json",
+  "parameterValues" : [ ]
+}

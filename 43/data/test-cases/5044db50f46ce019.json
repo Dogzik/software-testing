@@ -1,0 +1,431 @@
+{
+  "uid" : "5044db50f46ce019",
+  "name" : "user can not sign up twice",
+  "fullName" : "user can not sign up twice",
+  "historyId" : " e2e/authentication.spec.js Registration user can not sign up twice",
+  "time" : {
+    "start" : 1642459781915,
+    "stop" : 1642459782555,
+    "duration" : 640
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642459781915,
+        "stop" : 1642459782172,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642459781919,
+          "stop" : 1642459781960,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://localhost:3000)",
+        "time" : {
+          "start" : 1642459781961,
+          "stop" : 1642459782172,
+          "duration" : 211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.$$(.LoginPage__input input)",
+      "time" : {
+        "start" : 1642459782173,
+        "stop" : 1642459782198,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.fill",
+      "time" : {
+        "start" : 1642459782198,
+        "stop" : 1642459782224,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.fill",
+      "time" : {
+        "start" : 1642459782225,
+        "stop" : 1642459782243,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.$(text=Sign up)",
+      "time" : {
+        "start" : 1642459782244,
+        "stop" : 1642459782248,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.click",
+      "time" : {
+        "start" : 1642459782249,
+        "stop" : 1642459782310,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForSelector(.Sidebar__write)",
+      "time" : {
+        "start" : 1642459782310,
+        "stop" : 1642459782361,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.reload",
+      "time" : {
+        "start" : 1642459782361,
+        "stop" : 1642459782423,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.$$(.LoginPage__input input)",
+      "time" : {
+        "start" : 1642459782423,
+        "stop" : 1642459782435,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.fill",
+      "time" : {
+        "start" : 1642459782436,
+        "stop" : 1642459782448,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.fill",
+      "time" : {
+        "start" : 1642459782449,
+        "stop" : 1642459782460,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.$(text=Sign up)",
+      "time" : {
+        "start" : 1642459782461,
+        "stop" : 1642459782470,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.click",
+      "time" : {
+        "start" : 1642459782471,
+        "stop" : 1642459782526,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForEvent",
+      "time" : {
+        "start" : 1642459782526,
+        "stop" : 1642459782546,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1642459782546,
+        "stop" : 1642459782546,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642459782546,
+        "stop" : 1642459782555,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642459782547,
+          "stop" : 1642459782555,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "e2e/authentication.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "763c7564c3b9074b",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/42//#testresult/763c7564c3b9074b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642459572864,
+          "stop" : 1642459573480,
+          "duration" : 616
+        }
+      }, {
+        "uid" : "cb263296f07aec6c",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/41//#testresult/cb263296f07aec6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642459438007,
+          "stop" : 1642459438538,
+          "duration" : 531
+        }
+      }, {
+        "uid" : "42718596d9373601",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/40//#testresult/42718596d9373601",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642459080534,
+          "stop" : 1642459081267,
+          "duration" : 733
+        }
+      }, {
+        "uid" : "f5fbf72a46349ed",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/39//#testresult/f5fbf72a46349ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642458491998,
+          "stop" : 1642458492516,
+          "duration" : 518
+        }
+      }, {
+        "uid" : "f62075db9f431217",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/38//#testresult/f62075db9f431217",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642457647412,
+          "stop" : 1642457647971,
+          "duration" : 559
+        }
+      }, {
+        "uid" : "a778e515256b974c",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/36//#testresult/a778e515256b974c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642310245967,
+          "stop" : 1642310246589,
+          "duration" : 622
+        }
+      }, {
+        "uid" : "f37c28332a1660a7",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/37//#testresult/f37c28332a1660a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642310241719,
+          "stop" : 1642310242329,
+          "duration" : 610
+        }
+      }, {
+        "uid" : "6e9aa9a7675f2e5a",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/6e9aa9a7675f2e5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642310054029,
+          "stop" : 1642310054697,
+          "duration" : 668
+        }
+      }, {
+        "uid" : "6dbe6a730e518ae2",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/6dbe6a730e518ae2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308567734,
+          "stop" : 1642308568372,
+          "duration" : 638
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5044db50f46ce019.json",
+  "parameterValues" : [ ]
+}

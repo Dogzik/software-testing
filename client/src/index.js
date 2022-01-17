@@ -7,7 +7,7 @@ import PostClient from './components/utils/PostController.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainWindow postClient={new PostClient('localhost', 8080)}/>
+    <MainWindow postClient={new PostClient(process.env.REACT_APP_SERVER_HOST ?? 'localhost', 8080)}/>
   </React.StrictMode>,
   document.getElementById('root'),
 );

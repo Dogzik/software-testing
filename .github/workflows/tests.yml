@@ -119,12 +119,91 @@ jobs:
         with:
           name: allure-results-e2e
           path: client/allure-results
+          
+  selenide-tests:
+    name: selenide-tests-${{ matrix.browser }}
+    strategy:
+      matrix: 
+        browser: [chrome, firefox]
+    needs:
+      - backend-tests
+      - frontend-tests
+    runs-on: ubuntu-latest
+    env:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: post_db
+      APP_DB_USER: docker
+      APP_DB_PASS: docker
+      POSTGRES_PORT: 6543
+    
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: post_db
+        ports:
+          - 6543:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+        
+    steps:
+      - name: Checkout to actual version
+        uses: actions/checkout@v2
+
+      - name: Initialise databse
+        run: |
+          PGPASSWORD=$POSTGRES_PASSWORD psql --host localhost --port $POSTGRES_PORT --username $POSTGRES_USER --dbname $POSTGRES_DB <<-EOSQL
+            CREATE USER $APP_DB_USER WITH PASSWORD '$APP_DB_PASS';
+            GRANT ALL PRIVILEGES ON DATABASE $POSTGRES_DB TO $APP_DB_USER;
+          EOSQL
+          PGPASSWORD=$APP_DB_PASS psql --host localhost --port $POSTGRES_PORT --username $APP_DB_USER --dbname $POSTGRES_DB -f server/scripts/create-tables.sql
+      
+      
+      - name: Build server
+        working-directory: server
+        run: ./gradlew assemble
+
+      - name: Start server
+        working-directory: server
+        run: ./gradlew bootRun &
+
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install client dependencies
+        working-directory: client
+        run: npm ci
+
+      - name: Start client
+        working-directory: client
+        run: REACT_APP_SERVER_HOST=$(hostname -I | awk '{print $1}') npm start &
+        
+      - name: Start Selenoid
+        uses: Xotabu4/selenoid-github-action@v2
+        with:
+          selenoid-start-arguments: |
+            --args "-timeout 100s" --browsers="chrome;firefox"
+                      
+      - name: Run Selenide tests
+        working-directory: selenide-tests
+        run: ./gradlew test -Dselenide.browser=${{ matrix.browser }} -Dselenide.baseUrl="http://$(hostname -I | awk '{print $1}'):3000"
+        
+      - name: Upload Allure Reports Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results-selenide-${{ matrix.browser }}
+          path: selenide-tests/build/allure-results
 
   upload-allure-result:
     needs:
       - backend-tests
       - frontend-tests
       - end-to-end-tests
+      - selenide-tests
     runs-on: ubuntu-latest
     steps:
       - name: Get server results
@@ -143,6 +222,18 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: allure-results-e2e
+          path: allure-results
+          
+      - name: Get selenide-chrome results
+        uses: actions/download-artifact@v2
+        with:
+          name: allure-results-selenide-chrome
+          path: allure-results
+          
+      - name: Get selenide-firefox results
+        uses: actions/download-artifact@v2
+        with:
+          name: allure-results-selenide-firefox
           path: allure-results
 
       - name: Get Allure history
@@ -175,3 +266,5 @@ jobs:
             allure-results-client
             allure-results-server
             allure-results-e2e
+            allure-results-selenide-firefox
+            allure-results-selenide-chrome

@@ -46,4 +46,13 @@
 
 ### Bonus
 * Настроен [Allure report](https://dogzik.github.io/software-testing) для написанных unit, component, integration и e2e тестов
+---
 
+## HW7
+### Main
+* Написаны e2e тесты с помощью Selenide
+### Advanced
+* Настроен запуск тестов в Selenoid
+### Bonus
+* Настроен параллельный запуск новых тестов в CI на разных браузерах с генерацией Allure report в gh-pages
+* Написана [статья](selenide-tests/README.md) о том как это всё настроить

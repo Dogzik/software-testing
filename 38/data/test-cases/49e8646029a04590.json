@@ -1,0 +1,155 @@
+{
+  "uid" : "49e8646029a04590",
+  "name" : "Getting sent",
+  "fullName" : "com.example.server.repo.PostgresPostRepoTest.testGettingSent",
+  "historyId" : "69cd6a5fb28c334c896dc0e7841b82ba",
+  "time" : {
+    "start" : 1642457364836,
+    "stop" : 1642457367409,
+    "duration" : 2573
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clearTestMocks",
+    "time" : {
+      "start" : 1642457364855,
+      "stop" : 1642457365159,
+      "duration" : 304
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "epic",
+    "value" : "Repo tests"
+  }, {
+    "name" : "story",
+    "value" : "Getting mailbox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az95-548"
+  }, {
+    "name" : "thread",
+    "value" : "1952@fv-az95-548.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGettingSent"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.repo.PostgresPostRepoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "4efaea1d3f911f94",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/36//#testresult/4efaea1d3f911f94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309948809,
+          "stop" : 1642309950723,
+          "duration" : 1914
+        }
+      }, {
+        "uid" : "d52566afe82b5b37",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/37//#testresult/d52566afe82b5b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309949470,
+          "stop" : 1642309951524,
+          "duration" : 2054
+        }
+      }, {
+        "uid" : "b9070c2d91e4350d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/b9070c2d91e4350d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309800845,
+          "stop" : 1642309803252,
+          "duration" : 2407
+        }
+      }, {
+        "uid" : "940c13c7962f9f3f",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/940c13c7962f9f3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308288416,
+          "stop" : 1642308290641,
+          "duration" : 2225
+        }
+      }, {
+        "uid" : "b5104362ba72014",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/b5104362ba72014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307756862,
+          "stop" : 1642307759031,
+          "duration" : 2169
+        }
+      }, {
+        "uid" : "e6fa053e1653e5c3",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/e6fa053e1653e5c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305507053,
+          "stop" : 1642305509010,
+          "duration" : 1957
+        }
+      }, {
+        "uid" : "1f59dd6c06313c8e",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/1f59dd6c06313c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300128456,
+          "stop" : 1642300130898,
+          "duration" : 2442
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "49e8646029a04590.json",
+  "parameterValues" : [ ]
+}

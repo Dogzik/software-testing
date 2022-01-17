@@ -1,0 +1,140 @@
+{
+  "uid" : "ed008b10681d775d",
+  "name" : "Signing up with same credentials twice",
+  "fullName" : "com.example.server.controller.AuthenticationControllerTest.testRegister",
+  "historyId" : "7fad6b977ab22b349c93d8009e2e44f3",
+  "time" : {
+    "start" : 1642457406187,
+    "stop" : 1642457406213,
+    "duration" : 26
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "epic",
+    "value" : "Controller tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az95-548"
+  }, {
+    "name" : "thread",
+    "value" : "1952@fv-az95-548.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.server.controller.AuthenticationControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.server.controller.AuthenticationControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.server.controller.AuthenticationControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2edacce1f05a7fef",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/36//#testresult/2edacce1f05a7fef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309985304,
+          "stop" : 1642309985333,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "e288b72eee1f0ce2",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/37//#testresult/e288b72eee1f0ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309983930,
+          "stop" : 1642309983948,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "c55b1d88af393c40",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/c55b1d88af393c40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309844369,
+          "stop" : 1642309844434,
+          "duration" : 65
+        }
+      }, {
+        "uid" : "76564afc8344c9a5",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/76564afc8344c9a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308325549,
+          "stop" : 1642308325577,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "9d33af5df68f4a39",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/9d33af5df68f4a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307792393,
+          "stop" : 1642307792419,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "1879529f531b608f",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/1879529f531b608f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305541616,
+          "stop" : 1642305541639,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "efc0a90f106becfc",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/26//#testresult/efc0a90f106becfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642300171662,
+          "stop" : 1642300171711,
+          "duration" : 49
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ed008b10681d775d.json",
+  "parameterValues" : [ ]
+}

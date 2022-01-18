@@ -1,0 +1,79 @@
+{
+  "uid" : "1b3a9aebd6f3fa6b",
+  "name" : "Registered user can't use wrong password",
+  "fullName" : "com.example.AuthenticationTest.wrongPasswordLogin",
+  "historyId" : "fc8d365f7c52c583ceb691ba6c4f44e9",
+  "time" : {
+    "start" : 1642470674974,
+    "stop" : 1642470676550,
+    "duration" : 1576
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1642470674975,
+      "stop" : 1642470675069,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "epic",
+    "value" : "Selenide tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign in"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-715"
+  }, {
+    "name" : "thread",
+    "value" : "3912@fv-az92-715.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "wrongPasswordLogin"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b3a9aebd6f3fa6b.json",
+  "parameterValues" : [ ]
+}

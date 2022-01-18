@@ -1,0 +1,109 @@
+{
+  "uid" : "a8d7bc7115560c59",
+  "name" : "User can't register twice",
+  "fullName" : "com.example.AuthenticationTest.userRegistersTwice",
+  "historyId" : "fde5e75f905798b36928744e3a28243a",
+  "time" : {
+    "start" : 1642464344809,
+    "stop" : 1642464346430,
+    "duration" : 1621
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1642464344811,
+      "stop" : 1642464344859,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "epic",
+    "value" : "Selenide tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-715"
+  }, {
+    "name" : "thread",
+    "value" : "3936@fv-az92-715.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userRegistersTwice"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ec6b897e1f3d382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642464336082,
+        "stop" : 1642464337541,
+        "duration" : 1459
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8537c3aad2209eb8",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/47//#testresult/8537c3aad2209eb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642463453398,
+          "stop" : 1642463454763,
+          "duration" : 1365
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8d7bc7115560c59.json",
+  "parameterValues" : [ ]
+}

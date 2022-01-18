@@ -1,0 +1,136 @@
+{
+  "uid" : "43ce2b45a2ca3fac",
+  "name" : "Unknown user login",
+  "fullName" : "com.example.AuthenticationTest.unknownUserLogin",
+  "historyId" : "3b5dab62c0d5faa52561ecf604aaf17f",
+  "time" : {
+    "start" : 1642470795783,
+    "stop" : 1642470806333,
+    "duration" : 10550
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1642470795824,
+      "stop" : 1642470804607,
+      "duration" : 8783
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "epic",
+    "value" : "Selenide tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign in"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-715"
+  }, {
+    "name" : "thread",
+    "value" : "3969@fv-az92-715.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unknownUserLogin"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9699c65706bfade7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642470756057,
+        "stop" : 1642470761853,
+        "duration" : 5796
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f19e0563c0f0b050",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/50//#testresult/f19e0563c0f0b050",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642470708779,
+          "stop" : 1642470717267,
+          "duration" : 8488
+        }
+      }, {
+        "uid" : "86f711845ddee9f2",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/49//#testresult/86f711845ddee9f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642464871928,
+          "stop" : 1642464882279,
+          "duration" : 10351
+        }
+      }, {
+        "uid" : "d292746d3689f667",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/48//#testresult/d292746d3689f667",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642464336361,
+          "stop" : 1642464343052,
+          "duration" : 6691
+        }
+      }, {
+        "uid" : "f66af3afbb38c75a",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/47//#testresult/f66af3afbb38c75a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642463445160,
+          "stop" : 1642463451857,
+          "duration" : 6697
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "43ce2b45a2ca3fac.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "ab6614df5da2b203",
+  "name" : "User can't register twice",
+  "fullName" : "com.example.AuthenticationTest.userRegistersTwice",
+  "historyId" : "fde5e75f905798b36928744e3a28243a",
+  "time" : {
+    "start" : 1642470763541,
+    "stop" : 1642470764830,
+    "duration" : 1289
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1642470763542,
+      "stop" : 1642470763587,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Selenide tests"
+  }, {
+    "name" : "feature",
+    "value" : "Authentication tests"
+  }, {
+    "name" : "story",
+    "value" : "Sign up"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-496"
+  }, {
+    "name" : "thread",
+    "value" : "3874@fv-az101-496.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userRegistersTwice"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.AuthenticationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab6614df5da2b203.json",
+  "parameterValues" : [ ]
+}

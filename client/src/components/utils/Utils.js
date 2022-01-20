@@ -24,3 +24,4 @@ export function toInternalEmail(rawEmail, inbox) {
 }
 
 export const CLIENT_EPIC = 'Client component tests';
+export const ENTER_KEY = 13;

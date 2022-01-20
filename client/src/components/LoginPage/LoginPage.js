@@ -60,10 +60,12 @@ class LoginPage extends React.Component {
       <form className={'LoginPage'} onSubmit={this.onSignIn}>
         <h1 className={'LoginPage__welcome'}>Welcome to Govnopochta</h1>
         <div className={'LoginPage__input'}>
-          <input value={login} placeholder={'login'} onChange={this.onLoginChange}/>
+          <label htmlFor={"login"}>Login:</label>
+          <input id={"login"} value={login} placeholder={'login'} onChange={this.onLoginChange}/>
         </div>
         <div className={'LoginPage__input'}>
-          <input value={password} placeholder={'password'} onChange={this.onPasswordChange}/>
+          <label htmlFor={"password"}>Password:</label>
+          <input id={"password"} value={password} placeholder={'password'} onChange={this.onPasswordChange}/>
         </div>
         <div className={'LoginPage__actions'}>
           <button onClick={this.onSignInClick}>Sign in</button>

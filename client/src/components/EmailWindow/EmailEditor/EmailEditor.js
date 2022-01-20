@@ -42,13 +42,15 @@ class EmailEditor extends React.Component {
     return (
       <div className={'EmailWindow'}>
         <div className={'EmailEditor__info'}>
-          <input type={'email'} placeholder={'To'} value={address} onChange={this.onAddressChange}/>
+          <label htmlFor={'to'}>To:</label>
+          <input id={'to'} value={address} onChange={this.onAddressChange}/>
         </div>
         <div className={'EmailEditor__info'}>
-          <input type={'text'} placeholder={'Subject'} value={subject} onChange={this.onSubjectChange}/>
+          <label htmlFor={'subject'}>Subject:</label>
+          <input id={'subject'} value={subject} onChange={this.onSubjectChange}/>
         </div>
         <div className={'EmailEditor__text'}>
-          <textarea className={'EmailEditor__text'} value={text} onChange={this.onTextChange}/>
+          <textarea id={"text"} className={'EmailEditor__text'} value={text} onChange={this.onTextChange}/>
           <button className={'EmailEditor__send'} onClick={this.onSend}>Send</button>
         </div>
       </div>

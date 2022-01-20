@@ -24,7 +24,7 @@
 
 .EmailDetails__address {
     text-align: left;
-    color: #878787;
+    color: #383838;
     float: left;
     width: calc(100% - 140px - 20px);
     overflow: auto;
@@ -33,7 +33,7 @@
 .EmailDetails__time {
     float: right;
     text-align: right;
-    color: #878787;
+    color: #383838;
     width: 140px;
 }
 

@@ -17,6 +17,6 @@
     text-align: left;
 }
 
-.MailboxList__mailbox:hover {
+.MailboxList__mailbox:hover, .MailboxList__mailbox:focus {
     background: #404549;
 }

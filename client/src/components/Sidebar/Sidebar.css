@@ -11,12 +11,12 @@
     padding: 30px 15px;
     background: #009fc4;
     text-align: center;
-    color: aliceblue;
+    color: #ffffff;
     cursor: pointer;
 }
 
-.Sidebar__write:hover {
-    background: #0096c4;
+.Sidebar__write:hover, .Sidebar__write:focus {
+    background: #00718f;
 }
 
 .Sidebar__user {

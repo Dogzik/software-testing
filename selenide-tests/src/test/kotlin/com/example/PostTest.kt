@@ -43,8 +43,8 @@ class PostTest : BaseTest() {
         val inputs = elements("input")
         val addressInput = inputs[0]
         val subjectInput = inputs[1]
-        addressInput.shouldHave(attribute("placeholder", "To"))
-        subjectInput.shouldHave(attribute("placeholder", "Subject"))
+        addressInput.shouldHave(attribute("id", "to"))
+        subjectInput.shouldHave(attribute("id", "subject"))
         val textInput = element("textarea")
         addressInput.value = address
         subjectInput.value = subject

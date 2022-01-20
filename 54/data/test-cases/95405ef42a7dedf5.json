@@ -1,0 +1,228 @@
+{
+  "uid" : "95405ef42a7dedf5",
+  "name" : "return inbox email",
+  "fullName" : "toInternalEmail.return inbox email",
+  "historyId" : "5807fd600032d4545409ca8656017543",
+  "time" : {
+    "start" : 1642640890669,
+    "stop" : 1642640890669,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client unit tests"
+  }, {
+    "name" : "feature",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "story",
+    "value" : "Inbox email"
+  }, {
+    "name" : "suite",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "testClass",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "testMethod",
+    "value" : "return inbox email"
+  }, {
+    "name" : "package",
+    "value" : "toInternalEmail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "f666056543c525b1",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/53//#testresult/f666056543c525b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642640273292,
+          "stop" : 1642640273293,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a085033c233a14dc",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/51//#testresult/a085033c233a14dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642470336249,
+          "stop" : 1642470336249,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ec1114cf0a3cff96",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/50//#testresult/ec1114cf0a3cff96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642470240638,
+          "stop" : 1642470240639,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bdf5c0f0b6c6ddce",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/49//#testresult/bdf5c0f0b6c6ddce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642464309957,
+          "stop" : 1642464309957,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d34310246809b5d",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/48//#testresult/5d34310246809b5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642463901700,
+          "stop" : 1642463901701,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "520072c036eb8c73",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/47//#testresult/520072c036eb8c73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642463017961,
+          "stop" : 1642463017961,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "833af680d1093e0e",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/43//#testresult/833af680d1093e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642459391864,
+          "stop" : 1642459391864,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "376aa8a5f14fc4e8",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/42//#testresult/376aa8a5f14fc4e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642459228091,
+          "stop" : 1642459228092,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9c877ee5c977aba1",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/41//#testresult/9c877ee5c977aba1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642459100966,
+          "stop" : 1642459100966,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8ad56612dcb2f1b3",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/40//#testresult/8ad56612dcb2f1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642458697046,
+          "stop" : 1642458697046,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bb4a0eb3c4c3980e",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/39//#testresult/bb4a0eb3c4c3980e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642458175580,
+          "stop" : 1642458175580,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4d930aab9d95203",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/38//#testresult/4d930aab9d95203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642457288614,
+          "stop" : 1642457288615,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fc2a9f7e086dbe4e",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/36//#testresult/fc2a9f7e086dbe4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309874975,
+          "stop" : 1642309874976,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "aae9f7d3a054afde",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/37//#testresult/aae9f7d3a054afde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309895318,
+          "stop" : 1642309895319,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d74858912c923261",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/35//#testresult/d74858912c923261",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309713299,
+          "stop" : 1642309713299,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d9baa9a12ed3b308",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/34//#testresult/d9baa9a12ed3b308",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642308234470,
+          "stop" : 1642308234471,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b31617f75aad8358",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/32//#testresult/b31617f75aad8358",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642307690509,
+          "stop" : 1642307690509,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dfda1e1290a7e12",
+        "reportUrl" : "https://Dogzik.github.io/software-testing/28//#testresult/dfda1e1290a7e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642305443730,
+          "stop" : 1642305443730,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "95405ef42a7dedf5.json",
+  "parameterValues" : [ ]
+}

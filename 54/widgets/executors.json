@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Dogzik.github.io/software-testing",
+  "buildOrder" : 54,
+  "buildName" : "GitHub Actions Run #1721075594",
+  "buildUrl" : "https://github.com/Dogzik/software-testing/actions/runs/1721075594",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Dogzik.github.io/software-testing/54/"
+} ]

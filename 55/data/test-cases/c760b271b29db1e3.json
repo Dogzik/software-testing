@@ -1,0 +1,79 @@
+{
+  "uid" : "c760b271b29db1e3",
+  "name" : "New user sends email",
+  "fullName" : "com.example.PostTest.newUserSendsEmail",
+  "historyId" : "cfcdac1444eb51fbe413df11c96528fd",
+  "time" : {
+    "start" : 1642641340237,
+    "stop" : 1642641342209,
+    "duration" : 1972
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startApp",
+    "time" : {
+      "start" : 1642641340239,
+      "stop" : 1642641340680,
+      "duration" : 441
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "epic",
+    "value" : "Selenide tests"
+  }, {
+    "name" : "story",
+    "value" : "Sending email"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-399"
+  }, {
+    "name" : "thread",
+    "value" : "3817@fv-az92-399.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.PostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.PostTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "newUserSendsEmail"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.PostTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c760b271b29db1e3.json",
+  "parameterValues" : [ ]
+}

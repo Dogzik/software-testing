@@ -1,0 +1,79 @@
+{
+  "uid" : "f5ef134ba502c606",
+  "name" : "New user has empty mailboxes",
+  "fullName" : "com.example.PostTest.emptyNewUser",
+  "historyId" : "8e2c2f8095ad18f86d759c3ab1114d8d",
+  "time" : {
+    "start" : 1642641352729,
+    "stop" : 1642641353830,
+    "duration" : 1101
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startApp",
+    "time" : {
+      "start" : 1642641352731,
+      "stop" : 1642641353131,
+      "duration" : 400
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post tests"
+  }, {
+    "name" : "epic",
+    "value" : "Selenide tests"
+  }, {
+    "name" : "story",
+    "value" : "Mailboxes"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-399"
+  }, {
+    "name" : "thread",
+    "value" : "3817@fv-az92-399.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.PostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.PostTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyNewUser"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.PostTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5ef134ba502c606.json",
+  "parameterValues" : [ ]
+}
